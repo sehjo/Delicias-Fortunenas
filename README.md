@@ -1,3 +1,7 @@
+## Install React
+
+npm install react react-dom
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -83,3 +87,4 @@ robots.txt - used to tell search engines like Google which pages should be publi
 
 node_modules folder
 Used for storing all dependencies
+
