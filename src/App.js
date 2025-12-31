@@ -1,9 +1,9 @@
 import './App.css';
-import { NavBar } from './Components/Navbar';
+import { NavBar } from './Components/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <NavBar /> 
+      <NavBar/> 
       Prueba react
       </div>
   );

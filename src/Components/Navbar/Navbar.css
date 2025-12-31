@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+#navbar {
+    background-color: #F3E2B3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-height: 65px;
+}
+
+#divCenter {
+    background-color: #e39e99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+#logoNavbar {
+    
+    height: 100%;
+    min-width: 5%;
+    border-radius: 385px;
+    border: 3px solid #553728 ;
+  
+}
+
+h2 {
+    color: #553728;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+}
