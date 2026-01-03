@@ -27,7 +27,7 @@ export function Footer() {
                             Martes: 8:00 AM - 8:00 PM
                         </li>
                         <li>
-                            Miercoles: 8:00 AM - 8:00 PM
+                            Miércoles: 8:00 AM - 8:00 PM
                         </li>
                         <li>
                             Jueves: 8:00 AM - 8:00 PM
