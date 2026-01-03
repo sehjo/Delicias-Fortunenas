@@ -8,10 +8,10 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 
-var email= 'delifortuna.28042020@gmail.com';
-var phone1= '(506) 8390-2262';
-var phone2= '(506) 7087-7268';  
-var phone3= '(506) 8390-2262';
+const email= 'delifortuna.28042020@gmail.com';
+const phone1= '(506) 8390-2262';
+const phone2= '(506) 7087-7268';  
+const phone3= '(506) 8390-2262';
 
 export function Footer() {
   return (
