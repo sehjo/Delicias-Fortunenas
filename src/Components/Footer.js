@@ -51,10 +51,18 @@ export function Footer() {
                         <p>{email}</p>
                     </div>
                     <div className='icons-item'>
-                        <FaTiktok />
-                        <FaInstagram />
-                        <FaFacebookF />
-                        <FaWhatsapp />
+                        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                            <FaTiktok />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <FaInstagram />
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <FaFacebookF />
+                        </a>
+                        <a href="https://wa.me/50683902262" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <FaWhatsapp />
+                        </a>
                     </div>
                 </div>
                 <div  className='column-footer'>{/*Telefonos*/}
