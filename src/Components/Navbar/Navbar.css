@@ -1,27 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
-
 #navbar {
     background-color: #F3E2B3;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     position: sticky;
     top: 0;
-    z-index: auto;
-    max-height: 65px;
- 
+    max-height: 125px;
+    min-width: 700px;
 }
 
 #divCenter {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
-    
 }
 
-#logoNavbar {
+#iconPymeNavbar {
     height: 75px;
     min-width: 76px;
     border-radius: 385px;
@@ -29,24 +24,71 @@
   
 }
 
-h2 {
+a {
     color: #553728;
     font-family: 'ABeeZee', sans-serif;
-    font-style: normal;
+    font-weight: bold;
     font-size: 100%;
-    margin: 0px 10px 0px 10px;
-
+    margin: 0px 20px 0px 10px;
+    text-decoration: none;
+    
 }
 
-h2:hover {
+a:hover {
     animation: OptionInicio 0.5s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    animation-fill-mode: both;
+    animation-fill-mode: forwards;
+   
 }
 
 @keyframes OptionInicio {
     0% {color: #553728; transform: scale(1);}
     50% {color: #fffdf9; transform: scale(1.2); font-style: inherit;}
-    100% {color: #553728; transform: scale(1.2); font-style: inherit;}
+    100% {color: #553728; transform: scale(1.2); text-decoration: underline;}
+}
+
+#divRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+#divLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+    
+#iconFbNavbar{
+    width: 45px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#iconFbNavbar:hover {
+    transform: scale(1.2);
+    filter:invert(10%)
+}
+
+#iconIgNavbar{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#iconIgNavbar:hover {
+    transform: scale(1.2);
+    animation-name: instagramHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes instagramHover {
+    0% {filter: invert(0%);}
+    50% {filter: invert(70%);}
+    100% {filter: invert(0%);}
 }

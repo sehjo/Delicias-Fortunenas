@@ -1,29 +1,29 @@
 import './Navbar.css';
-import iconoEmpresa from '../../Image/LogoEmpresa.png';
-    
+import iconPymeNavbar from '../../Image/LogoEmpresa.png';
+import iconFb from '../../Image/iconFb.svg';
+import iconInst from '../../Image/instagramIcon.png'   
+  
 
-let prueba = {
-    titulo: "pepe",
-    descripcion: "hola",
-    dato: 123,
-    estado: ["feliz","morado","ingles"]
-}
+const pathIndex = '../../../public/index.html'
 
 export function NavBar() {
     return (
         <nav id="navbar">
-            <div style= {{backgroundColor: 'lightblue', padding: '10px', marginTop: '10px'}}>
+            <div id = "divLeft">
+                <img alt="IconFacebook" src={iconFb} id="iconFbNavbar"/>
             </div>
+
             <div id="divCenter">
-                <h2>Inicio</h2>
-                <h2>Acerca</h2>
-                <img alt="IconoEmpresa" src={iconoEmpresa} id="logoNavbar"/>
-                <h2>Productos</h2>
-                <h2>Contacto</h2>
+                <a href= {pathIndex}> Inicio</a>
+                <a href= ""> Acerca</a>
+                <img alt="MainIcon" src={iconPymeNavbar} id="iconPymeNavbar"/>
+                <a href= ""> Productos</a>
+                <a href= ""> Contacto</a>
             </div>
-            <div style= {{backgroundColor: 'lightblue', padding: '10px', marginTop: '10px'}}>
-            </div>
-                
+            
+            <div id = "divRight">
+                <img alt="IconInstagram" src={iconInst} id="iconIgNavbar"/>
+            </div>               
         </nav>
     );
 }
