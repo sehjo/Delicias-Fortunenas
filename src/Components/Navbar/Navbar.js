@@ -10,7 +10,9 @@ export function NavBar() {
     return (
         <nav id="navbar">
             <div id = "divLeft">
-                <img alt="IconFacebook" src={iconFb} id="iconFbNavbar"/>
+                <a href= "https://www.facebook.com/p/Delicias-Fortune%C3%B1as-100063545834955/">
+                    <img alt="IconFacebook" src={iconFb} id="iconFbNavbar"/>
+                </a>
             </div>
 
             <div id="divCenter">
@@ -22,7 +24,9 @@ export function NavBar() {
             </div>
             
             <div id = "divRight">
-                <img alt="IconInstagram" src={iconInst} id="iconIgNavbar"/>
+                <a href= "https://www.instagram.com/delicias_fortunenas/"> 
+                    <img alt="IconInstagram" src={iconInst} id="iconIgNavbar"/>
+                </a>
             </div>               
         </nav>
     );
