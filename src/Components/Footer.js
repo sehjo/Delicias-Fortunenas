@@ -36,7 +36,7 @@ export function Footer() {
                             Viernes: 8:00 AM - 8:00 PM
                         </li>
                         <li>
-                            Sabado: 8:00 AM - 8:00 PM
+                            Sábado: 8:00 AM - 8:00 PM
                         </li>
                         <li> 
                             Domingo: Cerrado    
