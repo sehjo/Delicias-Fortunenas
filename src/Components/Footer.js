@@ -11,7 +11,6 @@ import { FaWhatsapp } from "react-icons/fa";
 const email= 'delifortuna.28042020@gmail.com';
 const phone1= '(506) 8390-2262';
 const phone2= '(506) 7087-7268';  
-const phone3= '(506) 8390-2262';
 
 export function Footer() {
   return (
@@ -48,10 +47,11 @@ export function Footer() {
                     
                     <div className='contact-item'>
                         <img src={`${process.env.PUBLIC_URL}/icons/email.svg`} alt="email-icon" className='contact-icon' />
-                        <p>{email}</p>
+                        <a href={`mailto:${email}`}>{email}</a>
                     </div>
+
                     <div className='icons-item'>
-                        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <a href="https://www.tiktok.com"  aria-label="TikTok">
                             <FaTiktok />
                         </a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -69,18 +69,14 @@ export function Footer() {
                     <h3 className='subtitle-footer'>Telefonos</h3>
                     <div className='contact-item'>
                         <img src={`${process.env.PUBLIC_URL}/icons/phone.svg`} alt="phone-icon" className='contact-icon' />
-                        <p>{phone1}</p>
+                        <a href={`tel:${phone1}`}>{phone1}</a>
                     </div>
                     <div className='contact-item'>
                         <img src={`${process.env.PUBLIC_URL}/icons/phone.svg`} alt="phone-icon" className='contact-icon' />
-                        <p>{phone2}</p>
-                    </div>
-                    <div className='contact-item'>
-                        <img src={`${process.env.PUBLIC_URL}/icons/phone.svg`} alt="phone-icon" className='contact-icon' />
-                        <p>{phone3}</p>
+                        <a href={`tel:${phone2}`}>{phone2}</a>
                     </div>
                 </div>
-                 <div  className='column-footer'>{/*Telefonos*/}
+                 <div  className='column-footer'>{/*Lorem*/}
                     <h3 className='subtitle-footer'>Lorem Ipsum</h3>
                     
                 </div>

@@ -1,6 +1,7 @@
 :root {
     --main-text-color: #F3E2B3;
     --main-bg-color: #553728;
+    --hover-text-color: #D8A45A ;;
 }
 
 li {
@@ -56,4 +57,12 @@ li {
 .contact-icon {
     width: 24px;
     height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+a:hover {
+    color: var(--hover-text-color);
 }
