@@ -4,6 +4,7 @@ import { BreadCard } from './Components/BreadCard';
 import bread1 from './Image/foto pan5.png';
 import bread2 from './Image/Captura de pantalla 2025-12-30 184314.png';
 import bread3 from './Image/Captura de pantalla 2025-12-30 184716.png';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
           image={bread3}
         />
       </div>
+      <NavBar />
+      <Footer />
     </div>
   );
 }
