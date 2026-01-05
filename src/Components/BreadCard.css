@@ -1,0 +1,58 @@
+/* Bread Card Component Styles */
+
+.bread-card {
+    background-color: #f3e2b3;
+    color: #553728;
+    font-family: 'Inter', sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px dashed #85603d;
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bread-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bread-card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f3e2b3;
+    padding: 10px;
+}
+
+.bread-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bread-card-content {
+    background-color: #e6a15c;
+    padding: 40px 30px;
+    border-radius: 0 0 8px 8px;
+}
+
+.bread-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #553728;
+}
+
+.bread-card-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+    color: #553728;
+}
+
+.bread-card-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #553728;
+}
