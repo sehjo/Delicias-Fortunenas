@@ -2,6 +2,9 @@
 
 npm install react react-dom
 
+# Other packages
+npm install react-icons
+
 ## Available Scripts
 
 In the project directory, you can run:

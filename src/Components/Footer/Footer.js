@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Footer.css";
+import "./Footer.css";
 import { FaTiktok, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
