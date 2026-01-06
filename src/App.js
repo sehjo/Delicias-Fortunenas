@@ -10,13 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar /> 
-      <div style={{ 
-        display: 'flex', 
-        gap: '20px', 
-        padding: '40px', 
-        flexWrap: 'wrap',
-        justifyContent: 'center' 
-      }}>
+      <div className="bread-cards-container">
         <BreadCard 
           title="French Baguette"
           price="$3.50"
