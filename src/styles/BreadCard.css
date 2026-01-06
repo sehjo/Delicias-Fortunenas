@@ -6,9 +6,11 @@
     font-family: 'Inter', sans-serif;
     border-radius: 12px;
     overflow: hidden;
-    border: 3px dashed #85603d;
-    max-width: 350px;
+    border: 3px solid #85603d;
+    width: 350px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .bread-card:hover {
@@ -17,23 +19,31 @@
 }
 
 .bread-card-image {
-    width: 100%;
+    width: 100;
     height: 200px;
     overflow: hidden;
     background-color: #f3e2b3;
     padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .bread-card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    align-items: center;
+    display: flex;
 }
 
 .bread-card-content {
     background-color: #e6a15c;
     padding: 40px 30px;
     border-radius: 0 0 8px 8px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .bread-card-title {

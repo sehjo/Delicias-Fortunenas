@@ -1,9 +1,9 @@
 import './App.css';
 import { NavBar } from './Components/Navbar';
 import { BreadCard } from './Components/BreadCard';
-import bread1 from './Image/foto pan5.png';
-import bread2 from './Image/Captura de pantalla 2025-12-30 184314.png';
-import bread3 from './Image/Captura de pantalla 2025-12-30 184716.png';
+import bread1 from './Image/cinnamon_rolls.png';
+import bread2 from './Image/Signature_brioche_with_local_butter.png';
+import bread3 from './Image/carrot_cake.png';
 import { Footer } from './Components/Footer';
 
 function App() {
@@ -15,24 +15,25 @@ function App() {
         gap: '20px', 
         padding: '40px', 
         flexWrap: 'wrap',
-        justifyContent: 'center' 
+        justifyContent: 'center',
+        alignItems: 'stretch'
       }}>
         <BreadCard 
-          title="French Baguette"
-          price="$3.50"
-          description="Crispy on the outside, soft on the inside. Traditional French bread."
+          title="Cinnamon Rolls"
+          price="$4.50"
+          description="Deliciosos rollos de canela recién horneados con glaseado cremoso."
           image={bread1}
         />
         <BreadCard 
-          title="Artisan Bread"
-          price="$4.00"
-          description="Handcrafted bread with a rustic crust and perfect texture."
+          title="Brioche con Mantequilla Local"
+          price="$5.50"
+          description="Nuestro brioche signature hecho con mantequilla local premium."
           image={bread2}
         />
         <BreadCard 
-          title="Sourdough Loaf"
-          price="$5.00"
-          description="Classic sourdough with a tangy flavor and chewy texture."
+          title="Pastel de Zanahoria"
+          price="$6.00"
+          description="Esponjoso pastel de zanahoria con especias y frosting de queso crema."
           image={bread3}
         />
       </div>

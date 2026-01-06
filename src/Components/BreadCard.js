@@ -1,5 +1,5 @@
 import React from 'react';
-import './BreadCard.css';
+import '../styles/BreadCard.css';
 
 /**
  * BreadCard Component
