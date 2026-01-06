@@ -7,6 +7,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    overflow: hidden;
+    z-index: -1;
 }
 
 #transparent-square{

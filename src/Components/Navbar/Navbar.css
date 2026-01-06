@@ -8,6 +8,7 @@
     top: 0;
     max-height: 125px;
     min-width: 700px;
+    z-index: 10;
 }
 
 #divCenter {
