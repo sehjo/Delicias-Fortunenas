@@ -30,7 +30,6 @@ function App() {
           image={bread3}
         />
       </div>
-      <NavBar />
       <Footer />
     </div>
   );
