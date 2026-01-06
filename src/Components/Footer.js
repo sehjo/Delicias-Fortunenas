@@ -114,7 +114,7 @@ export function Footer() {
             </p>
           </div>
         </div>
-        <p className="footer-note">
+        <p className="footer-message">
           &copy; {new Date().getFullYear()} Delicias Fortuneñas. Todos los derechos reservados.
         </p>
       </div>
