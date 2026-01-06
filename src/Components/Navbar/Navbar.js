@@ -3,7 +3,6 @@ import iconPymeNavbar from '../../Image/LogoEmpresa.png';
 import iconFb from '../../Image/iconFb.svg';
 import iconInst from '../../Image/instagramIcon.png'   
   
-
 const pathIndex = '../../../public/index.html'
 
 export function NavBar() {
