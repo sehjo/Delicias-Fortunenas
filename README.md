@@ -2,6 +2,10 @@
 
 npm install react react-dom
 
+## Other packages 
+
+npm install leaflet
+
 ## Available Scripts
 
 In the project directory, you can run:
