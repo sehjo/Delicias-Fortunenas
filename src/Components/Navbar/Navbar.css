@@ -101,7 +101,7 @@
     50% {filter: invert(70%);}
     100% {filter: invert(0%);}
 }
-/* Tablets */
+
 @media (max-width: 1024px) {
     #navbar {
         min-height: 100px;
@@ -123,7 +123,6 @@
     }
 }
 
-/* Móviles */
 @media (max-width: 768px) {
     #navbar {
         min-height: 80px;
@@ -150,7 +149,6 @@
     }
 }
 
-/* Móviles pequeños */
 @media (max-width: 480px) {
     #navbar {
         min-height: 70px;
