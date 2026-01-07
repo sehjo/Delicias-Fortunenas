@@ -15,10 +15,10 @@ export function NavBar() {
             </div>
             <div id="divCenter">
                 <a href= {pathIndex}> Inicio</a>
-                <a href= ""> Acerca</a>
+                <a href= "#"> Acerca</a>
                 <img alt="MainIcon" src={iconPymeNavbar} id="iconPymeNavbar"/>
-                <a href= ""> Productos</a>
-                <a href= ""> Contacto</a>
+                <a href= "#"> Productos</a>
+                <a href= "#"> Contacto</a>
             </div>            
             <div id = "divRight">
                 <a href= "https://www.instagram.com/delicias_fortunenas/" target="_blank" rel="noopener noreferrer"> 
