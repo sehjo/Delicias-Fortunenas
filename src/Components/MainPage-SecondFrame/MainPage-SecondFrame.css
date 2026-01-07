@@ -14,13 +14,33 @@
 #container-mainpage-secondframe > div > div{
     width: 100%;
     height: 100%;
-    overflow: hidden;
     line-height: 0;
 }
 
 #container-mainpage-secondframe img{
     width: 102%;
     height: 101%;
-    object-fit: cover;
+    object-fit:cover;
     display: block;
+}
+
+/* Tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    #container-mainpage-secondframe img{
+        max-height: 250px;
+    }
+}
+
+/* Móviles en horizontal */
+@media (max-width: 768px) {
+    #container-mainpage-secondframe img{
+        max-height: 180px;
+    }
+}
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+    #container-mainpage-secondframe img{
+        max-height: 120px;
+    }
 }
