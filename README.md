@@ -5,6 +5,7 @@ npm install react react-dom
 ## Other packages 
 
 npm install leaflet
+npm install react-leaflet
 
 ## Available Scripts
 
