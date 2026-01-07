@@ -3,14 +3,14 @@ import iconPymeNavbar from '../../Image/LogoEmpresa.png';
 import iconFb from '../../Image/iconFb.svg';
 import { FaInstagram } from "react-icons/fa";   
 
-const pathIndex = '../../../public/index.html'
+const pathIndex = '/';
 
 export function NavBar() {
     return (
         <nav id="navbar">
             <div id = "divLeft">
                 <a href= "https://www.facebook.com/p/Delicias-Fortune%C3%B1as-100063545834955/" target="_blank" rel="noopener noreferrer">
-                    <img alt="IconFacebook" src={iconFb} id="iconFbNavbar"/>
+                    <img alt="IconFacebookWeb" src={iconFb} id="iconFbNavbar"/>
                 </a>
             </div>
             <div id="divCenter">
@@ -21,8 +21,8 @@ export function NavBar() {
                 <a href= ""> Contacto</a>
             </div>            
             <div id = "divRight">
-                <a href= "https://www.instagram.com/delicias_fortunenas/" target="_blank" rel="noopener noreferrer"> 
-                    <FaInstagram id="iconIgNavbar"/>
+                <a href="https://www.instagram.com/delicias_fortunenas/" target="_blank" rel="noopener noreferrer"> 
+                    <FaInstagram id="iconIgNavbar" alt="IconInstagramWeb"/>
                 </a>
             </div>               
         </nav>
