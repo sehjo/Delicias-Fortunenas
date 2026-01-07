@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
+:root {
+    --color-brown-dark: #553728;
+    --color-beige-background: #F3E2B3;
+    --color-white-cream: #fffdf9;
+}
+
 #navbar {
     background-color: #F3E2B3;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    max-height: 125px;
+    min-height: 125px;    
     min-width: 700px;
     z-index: 10;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
 
 #divCenter {
@@ -18,24 +27,32 @@
 }
 
 #iconPymeNavbar {
-    height: 75px;
-    min-width: 76px;
+    width: 98px;
+    height: 98px;
     border-radius: 385px;
-    border: 3px solid #553728 ;
+    border: 3px solid #553728;
   
 }
 
-a {
+#divCenter a {
     color: #553728;
     font-family: 'ABeeZee', sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 20px;
     margin: 0px 20px 0px 10px;
     text-decoration: none;
-    
 }
 
-a:hover {
+#divCenter a {
+    color: #553728;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 20px 0px 10px;
+    text-decoration: none;
+}
+
+#divCenter a:hover {
     animation: OptionInicio 0.5s ease-in-out;
     animation-fill-mode: forwards;
    
@@ -43,7 +60,7 @@ a:hover {
 
 @keyframes OptionInicio {
     0% {color: #553728; transform: scale(1);}
-    50% {color: #fffdf9; transform: scale(1.2); font-style: inherit;}
+    50% {color: #8B4A2B; transform: scale(1.2); font-style: inherit;}
     100% {color: #553728; transform: scale(1.2); text-decoration: underline;}
 }
 
@@ -52,7 +69,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-right: 15px;
-
 }
 
 #divLeft{
@@ -79,6 +95,8 @@ a:hover {
     height: 50px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    color: #553728;
+
 }
 
 #iconIgNavbar:hover {
