@@ -7,7 +7,7 @@
 }
 
 #navbar {
-    background-color: var(--color-beige-background);
+    background-color: #F3E2B3;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -29,12 +29,12 @@
     width: 98px;
     height: 98px;
     border-radius: 385px;
-    border: 3px solid var(--color-brown-dark);
+    border: 3px solid #553728;
   
 }
 
 #divCenter a {
-    color: var(--color-brown-dark);
+    color: #553728;
     font-family: 'ABeeZee', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -58,9 +58,9 @@
 }
 
 @keyframes OptionInicio {
-    0% {color: var(--color-brown-dark); transform: scale(1);}
-    50% {color: var(--color-white-cream); transform: scale(1.2); font-style: inherit;}
-    100% {color: var(--color-brown-dark); transform: scale(1.2); text-decoration: underline;}
+    0% {color: #553728; transform: scale(1);}
+    50% {color: #8B4A2B; transform: scale(1.2); font-style: inherit;}
+    100% {color: #553728; transform: scale(1.2); text-decoration: underline;}
 }
 
 #divRight {
@@ -94,7 +94,7 @@
     height: 50px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    color: var(--color-brown-dark);
+    color: #553728;
 
 }
 
