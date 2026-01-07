@@ -5,16 +5,20 @@
     --hover-text-color: #D8A45A;
 }
 
+.footer {
+    position: absolute;
+    bottom:0;
+}
+
 .footer-background {
     font-family: "Work Sans";
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     padding: 30px;
+    font-size: 16px;
 }
-
 .footer-background li {
-    list-style-type: none;
-    
+    text-align: left;
 }
 
 .footer-background a {
@@ -26,9 +30,16 @@
     color: var(--hover-text-color);
 }
 
-.footer-background p {
+.copyrigth-text {
     margin: 0px;
     padding-top: 20px;
+    padding-bottom: 0px;
+
+}
+
+.footer-background p {
+    margin: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
 
 }
@@ -52,6 +63,7 @@
     gap: 24px;
     flex: 1 0 0;
     align-self: stretch;
+    text-align: left;
 }
 
 .subtitle-footer {
@@ -113,7 +125,6 @@
 }
 
 .footer-message {
-    font-size: 14px;
     color: var(--main-text-color);
     max-width: 250px;
     text-align: left;

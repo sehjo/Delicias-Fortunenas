@@ -5,6 +5,7 @@ import bread1 from './Image/cinnamon_rolls.png';
 import bread2 from './Image/Signature_brioche_with_local_butter.png';
 import bread3 from './Image/carrot_cake.png';
 import { Footer } from './Components/Footer';
+import { Footer } from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           image={bread3}
         />
       </div>
+      <NavBar />
+      <p>Parrafo ejemplo para lanzar el footer hacia abajo</p>
+      <h1>titulo1 ejemplo para lanzar el footer hacia abajo</h1>
       <Footer />
     </div>
   );
