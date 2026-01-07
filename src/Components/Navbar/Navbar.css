@@ -14,9 +14,7 @@
     top: 0;
     min-height: 125px;    
     min-width: 700px;
-    width: 100%;
-    flex-wrap: wrap;
-
+    z-index: 10;
 }
 
 #divCenter {
