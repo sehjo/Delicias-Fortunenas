@@ -5,6 +5,12 @@ import L from "leaflet";
 
 delete L.Icon.Default.prototype._getIconUrl;
 
+const blackIcon = new L.Icon({
+  iconUrl: "/black-icon.png",
+  iconSize: [48, 48],
+  iconAnchor: [48 , 48],
+});
+
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
   iconUrl: require("leaflet/dist/images/marker-icon.png"),
@@ -17,21 +23,17 @@ export default function LeafletMap() {
   return (
     <MapContainer
       center={position}
-      zoom={15}
+      zoom={12}
       scrollWheelZoom={true}
-      style={{ height: "400px", width: "100%" }}
+      style={{ height: "252px", width: "100%" }}
     >
-      {/* <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution="&copy; OpenStreetMap contributors"
-      /> */}
-
+      
       <TileLayer
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        attribution="&copy; OpenStreetMap &copy; CARTO"
+        attribution="© OpenStreetMap © CARTO"
       />
 
-      <Marker position={position}>
+      <Marker position={position} icon={blackIcon}>
         <Popup>
           <strong>Delicias Fortuneñas</strong>
           <br />
