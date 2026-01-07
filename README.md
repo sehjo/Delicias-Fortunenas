@@ -2,13 +2,7 @@
 
 npm install react react-dom
 
-## Other packages 
-
-### install map library
-npm install leaflet
-npm install react-leaflet
-
-### install icons library
+# Other packages
 npm install react-icons
 
 ## Available Scripts
