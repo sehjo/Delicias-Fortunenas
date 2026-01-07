@@ -114,6 +114,7 @@ export function Footer() {
     </footer>
   );
 }
+
 export function TelephoneLink({ phoneNumber }) {
   return (
     <div className="contact-item">
@@ -126,7 +127,7 @@ export function TelephoneLink({ phoneNumber }) {
         href={`tel:${phoneNumber}`}
         onClick={(e) => {
           e.preventDefault();
-          if (window.confirm(`¿Llamar al ${phoneNumber}?`)) {
+          if (window.confirm(`¿Llamar al ${phoneNumber}? \n\nSi se encuentra en PC será redirigido a su aplicación de teléfono por defecto. \nSe recomienda usar un dispositivo móvil.`)) {
             window.location.href = `tel:${phoneNumber}`;
           }
         }}
