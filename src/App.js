@@ -4,7 +4,7 @@ import { ProductCard } from './Components/ProductCard/ProductCard';
 import bread1 from './Image/cinnamon_rolls.png';
 import bread2 from './Image/Signature_brioche_with_local_butter.png';
 import bread3 from './Image/carrot_cake.png';
-import { Footer } from './Components/Footer/Footer';
+// import { Footer } from './Components/Footer/Footer';
 import LeafletMap from './Components/Map/LeafletMap';
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
       </div>
       
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
