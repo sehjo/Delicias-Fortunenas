@@ -18,7 +18,7 @@ function App() {
       <div style={{ 
         display: 'flex', 
         gap: '20px', 
-        padding: '40px', 
+        padding: '40px 0px', 
         flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'stretch'
@@ -45,7 +45,7 @@ function App() {
       </div>
       
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
