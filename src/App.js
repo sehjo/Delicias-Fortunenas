@@ -3,12 +3,11 @@ import { NavBar } from './Components/Navbar/Navbar';
 import MainPageFrameStart from './Components/MainPage-FrameStart/MainPage-FrameStart';
 import MainPageSecondFrame from './Components/MainPage-SecondFrame/MainPage-SecondFrame';
 import LeafletMap from './Components/Map/LeafletMap';
-import MainPageThirdFrame from './Components/MainPage-ThirdFrame/MainPage-ThirdFrame';
-
+import MainPageThirdFrameAboutUs from './Components/MainPage-ThirdFrame/About-us/MainPage-ThirdFrame-AboutUs';
 function App() {
   return (
     <div className="App">
-      <MainPageThirdFrame/>
+      <MainPageThirdFrameAboutUs/>
       <LeafletMap/>
       </div>
   );
