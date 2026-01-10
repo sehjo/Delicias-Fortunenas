@@ -16,9 +16,8 @@ export default function MainPageFourthFrame() {
                <div id = 'container-phones'>
                     <img src={iconPhone} alt="Phone Icon" />
                       <div id='phones-numbers'>
-                        <p>+57 300 123 4567</p>
-                        <p>+57 300 765 4321</p>
-                        <p>+57 300 765 4321</p>
+                        <p>(506)8390-2262</p>
+                        <p>(506)6435-8374</p>
                       </div>  
                </div>
                 <div id='container-email'>
