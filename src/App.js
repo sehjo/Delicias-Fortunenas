@@ -8,16 +8,19 @@ import bread3 from './Image/carrot_cake.png';
 import { Footer } from './Components/Footer/Footer';
 import LeafletMap from './Components/Map/LeafletMap';
 import { About1 } from './Components/AboutSection/About1/About1';
+import { Personal } from './Components/AboutSection/Personal/Personal';
 
 function App() {
   return (
     <div className="App">
       {/* Navigation bar */}
       <NavBar /> 
+
+      {/* About Us section */}
       <About1 />
+      <Personal />
       <About1 />
-      <About1 />
-      <About1 />
+
       {/* Products section */}
       {/* <div style={{ 
         display: 'flex', 

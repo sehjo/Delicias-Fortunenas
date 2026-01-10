@@ -34,10 +34,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
+  
 }
 
-/* .info video {
-  width: 100%;
-  height: 100%;
-  border-radius: 50px 0 0 50px;
-} */
+.info video {
+  width: 600px;
+  height: 600px;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 20%;
+}

@@ -44,8 +44,8 @@ export function About1() {
     <div className="background">
       <div className="info">
         <div>
-          <video autoPlay loop muted playsInline>
-            {/* <source src="/Videos/AboutUs.mp4" type="video/mp4" /> */}
+          <video autoPlay loop muted>
+            <source src=".\Video\ssstik.io_1768015707037.mp4" type="video/mp4" /> 
             Tu navegador no soporta el elemento de video.
           </video>
         </div>

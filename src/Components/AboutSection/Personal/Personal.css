@@ -1,0 +1,34 @@
+.grid-container {
+  background-color: #f3e2b3;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  padding: 10rem;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.personal-info h2 {
+  color: #000;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+.personal-info h3 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.personal-photo {
+  width: 467px;
+  height: 350px;
+  border-radius: 20px;
+}
