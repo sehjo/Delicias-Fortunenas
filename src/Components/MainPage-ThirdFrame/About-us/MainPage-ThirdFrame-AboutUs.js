@@ -9,12 +9,6 @@ export default function MainPageThirdFrame() {
             <div>
                 <button id='btn-read-more'>Leér mas</button>
             </div>
-            <div id='text-about-us'>
-                <p>Acerca de Nosotros</p>
-            </div>
-            <div>
-                <button id='btn-read-more'>Leér mas</button>
-            </div>
         </div>
     );
 }

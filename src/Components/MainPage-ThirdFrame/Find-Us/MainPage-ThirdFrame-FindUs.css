@@ -1,0 +1,51 @@
+#container-thirdframe-findus{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+    background: linear-gradient(0deg, #553728 0%, #553728 100%), #8B4A2B;
+    
+}
+
+#text-find-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #E6A15C;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+#btn-waze{
+    border-radius: 120px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#thirdframe-location{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+#thirdframe-location > p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 130%;
+    font-style: normal;
+    
+    line-height: 0%; 
+}
