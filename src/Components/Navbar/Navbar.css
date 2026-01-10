@@ -16,7 +16,7 @@
     min-width: 700px;
     width: 100%;
     flex-wrap: wrap;
-
+     z-index: 1000; /*SE DEBE DISCUTIR ESTO */
 }
 
 #divCenter {

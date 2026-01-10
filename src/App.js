@@ -7,15 +7,19 @@ import bread2 from './Image/Signature_brioche_with_local_butter.png';
 import bread3 from './Image/carrot_cake.png';
 import { Footer } from './Components/Footer/Footer';
 import LeafletMap from './Components/Map/LeafletMap';
+import { About1 } from './Components/AboutSection/About1/About1';
 
 function App() {
   return (
     <div className="App">
       {/* Navigation bar */}
       <NavBar /> 
-      
+      <About1 />
+      <About1 />
+      <About1 />
+      <About1 />
       {/* Products section */}
-      <div style={{ 
+      {/* <div style={{ 
         display: 'flex', 
         gap: '20px', 
         padding: '40px 0px', 
@@ -42,7 +46,7 @@ function App() {
           image={bread3}
         />
       <LeafletMap/>
-      </div>
+      </div> */}
       
       {/* Footer */}
       <Footer />
