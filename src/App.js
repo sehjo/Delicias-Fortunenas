@@ -8,8 +8,7 @@ import MainPageThirdFrameFindUs from './Components/MainPage-ThirdFrame/Find-Us/M
 function App() {
   return (
     <div className="App">
-      <MainPageThirdFrameAboutUs/>
-      <LeafletMap/>
+     
       <MainPageThirdFrameFindUs/>
       </div>
   );

@@ -9,11 +9,11 @@ export default function MainPageThirdFrameFindUs() {
             </div>
              <div>
                 <button id='btn-waze'>
-                        <img src={iconWaze} alt="IconWaze" />
+                        <img src={iconWaze} alt="IconWaze" id='icon-waze' />
                 </button>
             </div>
             <div id="thirdframe-location">
-                <img src={iconMaps} alt="IconMaps" />
+                <img src={iconMaps} alt="IconMaps" id="icon-maps" />
                 <p>La Fortuna San Carlos</p>
                 <p>Arenal / La Fortuna, Costa Rica</p>
             </div>
