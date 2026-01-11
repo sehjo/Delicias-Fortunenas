@@ -1,16 +1,17 @@
 import "./About1.css";
+import videoSrc from "../../../Video/ssstik.io_1768015707037.mp4";
 
 const principalMesage = (
   <>
     <strong>Fundada en 2020 por Johanna y Eduardo,</strong> nuestra panadería
     nació de la resiliencia.
-    <br></br>En medio de los desafíos de la pandemia, encendimos nuestro primer
+    <br /> En medio de los desafíos de la pandemia, encendimos nuestro primer
     horno casero para transformar una necesidad en una pasión artesanal.
-    <br></br>Lo que comenzó con panes tradicionales costarricenses y ventas por
+    <br /> Lo que comenzó con panes tradicionales costarricenses y ventas por
     redes sociales, creció gracias a la dedicación y al apoyo invaluable de
     nuestros amigos Thomas y Marion, permitiéndonos alcanzar la independencia y
     dedicarnos por completo a nuestro sueño.
-    <br></br>Hoy, tras casi 6 años de trayectoria, en Delicias Fortuneñas
+    <br /> Hoy, tras casi 6 años de trayectoria, en Delicias Fortuneñas
     seguimos horneando con amor y calidad, llevando el auténtico sabor del pan
     artesanal desde nuestro taller hasta su hogar.
   </>
@@ -33,8 +34,8 @@ const principalMesage2 = (
     y trabajar exclusivamente en nuestro sueño. Y es si como con mucho trabajo y
     dedicación, creamos <strong>Delicias Fortuneñas.</strong> Desde entonces han pasado casi 6
     años, haciendo productos artesanales con mucho amor, calidad y dedicación…
-    <br></br>
-    <br></br>
+    <br /> 
+    <br /> 
     <strong>¡Sea parte de este hermoso emprendimiento y pida sus productos ahora!</strong>
   </>
 );
@@ -45,7 +46,7 @@ export function About1() {
       <div className="info">
         <div>
           <video autoPlay loop muted>
-            <source src=".\Video\ssstik.io_1768015707037.mp4" type="video/mp4" /> 
+            <source src={videoSrc} type="video/mp4" /> 
             Tu navegador no soporta el elemento de video.
           </video>
         </div>
