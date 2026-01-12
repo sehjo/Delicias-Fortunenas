@@ -9,7 +9,8 @@ import { Footer } from './Components/Footer/Footer';
 import LeafletMap from './Components/Map/LeafletMap';
 import { About1 } from './Components/AboutSection/About1/About1';
 import { Personal } from './Components/AboutSection/Personal/Personal';
-
+import { About2 } from './Components/AboutSection/About2/About2';
+import { About3 } from './Components/AboutSection/About3/About3';
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,9 @@ function App() {
 
       {/* About Us section */}
       <About1 />
+      <About2 />
+      {/* <About3 /> */}
       <Personal />
-      <About1 />
 
       {/* Products section */}
       {/* <div style={{ 
