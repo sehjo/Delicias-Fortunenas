@@ -1,11 +1,24 @@
 .grid-container {
   background-color: #f3e2b3;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: clamp(2rem, 5vw, 10rem);
+  /* padding: clamp(2rem, 5vw, 10rem); */
   gap: clamp(2rem, 5vw, 10rem);
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 1rem;
+  }
+}
+
+.personal-section-title {
+  padding: 4rem 8rem;
 }
 
 .personal-info {
@@ -18,7 +31,7 @@
   text-align: center;
 
   /* Animacion */
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
   position: relative;
 }
 
@@ -30,7 +43,7 @@
   margin: 0;
 
    /* Animacion */
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .personal-info h3 {
@@ -43,18 +56,19 @@
   margin: 0;
 
    /* Animacion */
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 .personal-photo {
   width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 40px;
+  max-width: clamp(300px, 30vw, 450px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: clamp(20px, 3vw, 40px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 
    /* Animacion */
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s ease;
 }
 
 /* Cuando hacemos hover en el contenedor, todas las cards se reducen */

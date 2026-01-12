@@ -1,5 +1,5 @@
 import "./About1.css";
-import videoSrc from "../../../Video/ssstik.io_1768015707037.mp4";
+import videoSrc from "../../../Video/slowmainvideo.mp4";
 
 const principalMesage = (
   <>

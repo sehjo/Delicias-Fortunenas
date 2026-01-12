@@ -1,9 +1,13 @@
 import "./Personal.css";
 import thomasMarion from "../../../Image/ThomasyMarion.png";
+import eduardoMiranda from "../../../Image/EduardoMiranda.png";
+import JohannaVargas from "../../../Image/JohannaVargas.png";
 
 export function Personal() {
   return (
     <>
+    <div className="personal-section-title">
+      {/* <h1>Nuestro Equipo</h1> */}
       <div className="grid-container">
         <PersonalCard
           src={thomasMarion}
@@ -12,18 +16,20 @@ export function Personal() {
           desc="Con el apoyo de: Thomas y Marion"
         />
         <PersonalCard
-          src={thomasMarion}
-          alt="Tomas Y Marion"
-          titulo="Grandes personas y amigos."
-          desc="Con el apoyo de: Thomas y Marion"
+          src={JohannaVargas}
+          alt="Johanna Quesada"
+          titulo="Dos emprendedores persiguiendo un sueño."
+          desc="Fundadora: Johanna Vargas"
         />
         <PersonalCard
-          src={thomasMarion}
-          alt="Tomas Y Marion"
-          titulo="Grandes personas y amigos."
-          desc="Con el apoyo de: Thomas y Marion"
+          src={eduardoMiranda}
+          alt="Eduardo Miranda"
+          titulo="Dos emprendedores persiguiendo un sueño."
+          desc="Fundador: Eduardo Miranda"
         />
       </div>
+    </div>
+      
     </>
   );
 }
