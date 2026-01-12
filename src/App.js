@@ -1,18 +1,20 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { NavBar } from './Components/Navbar/Navbar';
-import { ProductCard } from './Components/ProductCard/ProductCard';
-import bread1 from './Image/cinnamon_rolls.png';
-import bread2 from './Image/Signature_brioche_with_local_butter.png';
-import bread3 from './Image/carrot_cake.png';
-import { Footer } from './Components/Footer/Footer';
 import MainPageFrameStart from './Components/MainPage-FrameStart/MainPage-FrameStart';
+import { ProductsPage } from './Components/ProductsPage/ProductsPage';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/> 
-      <MainPageFrameStart/>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<MainPageFrameStart />} />
+          <Route path="/productos" element={<ProductsPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
