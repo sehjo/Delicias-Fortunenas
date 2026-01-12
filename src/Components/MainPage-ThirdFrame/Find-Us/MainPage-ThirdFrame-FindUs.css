@@ -8,7 +8,6 @@
     align-items: center;
     gap: 10vw;
     background: linear-gradient(0deg, #553728 0%, #553728 100%), #8B4A2B;
-    
 }
 
 #text-find-us{
@@ -50,6 +49,11 @@
     font-size: 2vh;
     font-style: normal;
     line-height: 0%; 
+}
+
+#icon-maps{
+        width: 5vw;
+        height: 8vh;
 }
 
 @media screen and (max-width: 1124px) {
