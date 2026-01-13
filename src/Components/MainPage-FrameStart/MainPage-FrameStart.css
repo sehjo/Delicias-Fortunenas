@@ -1,28 +1,33 @@
 #MainPage-FrameStart{
-    height: 100vh;
-    width: 100%;
-    max-width: 100%;
-    background-image: url('../../Image/MainPage-FirstFrame.png');
-    background-size: cover;
-    background-position: center;
+    /* disposicion */ 
+    height: 86vh;
+    width: 100vw;
     display: flex;
     justify-content: start;
     align-items: center;
-    overflow: hidden;
-    position: relative;
+    /* styles */ 
+    background-image: url('../../Image/MainPage-FirstFrame.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #transparent-square{
+    /* disposicion */    
     display: flex;
     padding: 0px 40px;
     margin: 0px 0px 0px -900px;
-    width: 720px;
-    max-width: calc(100% - 40px);
-    height: 340px;
+    width: 50vw;
+    height: 35vh;
+    
+
+    /* styles */    
     border-radius: 59px;
     border: 2px solid #675934;
     background-blend-mode: overlay, normal;
     backdrop-filter: blur(40px);
+
+    /* animacion */
     transform: translate(1000px);
     transition: all 3s ease;
     transition-delay: 3s;
@@ -31,66 +36,119 @@
 #transparent-square h1{
     font-family: 'Poppins', sans-serif;
     color: #FFF;
-    text-shadow: 0 4px 56px rgba(0, 0, 0, 0.25);
-    font-size: 59px;
+    text-shadow: 0 4px 56px rgba(0, 0, 0, 0.25);   
+    font-size: 58px;
     font-weight: 700;
     line-height: 120%;
     text-align: start; 
 }
 
-/* Tablets y pantallas medianas */
-@media (max-width: 1024px) {
-    #transparent-square{
-        width: 600px;
-        height: 300px;
-        margin: 0px 0px 0px -600px;
-        padding: 0px 30px;
-        border-radius: 45px;
-    }
+/* pc landscape*/
+@media screen and (min-width: 900px) and (max-width: 1499px) and (min-height: 1400px) {
     
+    #MainPage-FrameStart{
+        height: 92vh;
+        width: 100vw;
+    }
+
+    #transparent-square{
+        margin: 0px;
+        width: 50vw;
+        height: 35vh;    
+        margin: -70px 0px 0px -900px;
+    }
+
     #transparent-square h1{
-        font-size: 42px;
+        font-size: 4.5vh;
     }
 }
 
-/* Móviles en horizontal */
-@media (max-width: 768px) {
-    #transparent-square{
-        width: 80%;
-        max-width: 500px;
-        height: 260px;
-        margin: 0;
-        padding: 0px 25px;
-        border-radius: 35px;
-        backdrop-filter: blur(30px);
-        transform: translate(0);
+/* tablet screen*/
+@media (max-width: 778px) {
+    #MainPage-FrameStart{
+        height: 91vh;
+        width: 100vw;
     }
-    
-    #transparent-square h1{
-        font-size: 28px;
+
+    #transparent-square{
+        margin: 0px;
+        width: 70vw;
+        height: 35vh;
+        padding: 20px 20px;
+        margin: -70px 0px 0px -900px;
     }
 }
 
-/* Móviles en vertical */
+/* tablet screen landscape*/
+@media (max-width: 1025px) and (orientation: landscape) {
+    #MainPage-FrameStart{
+        height: 95vh;
+        width: 100vw;
+    }
+
+    #transparent-square{
+        margin: 0px;
+        width: 70vw;
+        height: 45vh;
+        padding: 20px 20px;
+        margin: -70px 0px 0px -900px;
+    }
+
+}
+
+/* pc large screen */
+@media screen and (min-width: 1500px){
+     #transparent-square{
+        margin: 0px;
+        width: 40vw;
+        height: 35vh;    
+        margin: -70px 0px 0px -900px;
+    }
+
+    #transparent-square h1{
+        font-size: 7vh;
+    }
+}
+
+
+/* phone screen */
 @media (max-width: 480px) {
     #MainPage-FrameStart{
-        justify-content: center;
+        height: 90vh;
+        width: 100vw;
     }
-    
+
     #transparent-square{
-        width: 85%;
-        max-width: 320px;
-        height: auto;
-        min-height: 180px;
-        margin: 0;
-        padding: 20px 15px;
-        border-radius: 25px;
-        backdrop-filter: blur(25px);
-        transform: translate(0);
+        margin: 0px;
+        width: 80vw;
+        height: 30vh;
+        padding: 20px 20px;
+        margin: -70px 0px 0px -990px;
+    }
+
+    #transparent-square h1{
+        font-size: 39px;
+    }
+
+}
+/* phone screen  landscape*/
+
+@media screen and (max-width: 846px) and (orientation: landscape) {
+    
+    #MainPage-FrameStart{
+        height: 90vh;
+        width: 100vw;
+    }
+
+    #transparent-square{
+        margin: 0px;
+        width: 80vw;
+        height: 40vh;
+        padding: 20px 20px;
+        margin: -70px 0px 0px -950px;
     }
     
     #transparent-square h1{
-        font-size: 20px;
-        text-align: center;
+        font-size: 39px;
     }
 }
