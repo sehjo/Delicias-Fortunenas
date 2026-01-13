@@ -30,9 +30,10 @@
 
 .about3-img-container img {
   height: 100%;
-  max-height: 90vh;
+  max-height: 110vh;
   width: auto;
   object-fit: cover;
+  border-radius: 0px 100px 0px 0px;
 }
 
 .about3-text-container {
@@ -110,6 +111,9 @@
     gap: 2.5rem;
     padding: 2rem;
   }
+  .about3-img-container img {
+    border-radius: 50px;
+  }
 }
 
 /* Móvil y iPad */
@@ -129,6 +133,7 @@
     max-height: 50vh;
     width: auto;
     object-fit: contain;
+    border-radius: 50px;
   }
 
   .about3-text-container {

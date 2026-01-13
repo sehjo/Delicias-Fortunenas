@@ -27,7 +27,7 @@ export function About2() {
         </div>
 
         <div>
-          <video autoPlay loop muted playsInline>
+          <video autoPlay loop muted playsInline className="about2-video">
             <source src={panesBaguette} type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
