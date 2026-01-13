@@ -1,10 +1,8 @@
 import './Navbar.css';
 import iconPymeNavbar from '../../Image/Company_Logo.png';
 import iconFb from '../../Image/iconFb.svg';
-
-import { FaInstagram } from "react-icons/fa";   
-
-const pathIndex = '../../../public/index.html'
+import { FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 export function NavBar() {
     return (
@@ -15,10 +13,10 @@ export function NavBar() {
                 </a>
             </div>
             <div id="divCenter">
-                <a href= {pathIndex}> Inicio</a>
-                <a href= "#"> Acerca</a>
+                <Link to="/"> Inicio</Link>
+                <Link to="/#about"> Acerca</Link>
                 <img alt="MainIcon" src={iconPymeNavbar} id="iconPymeNavbar"/>
-                <a href= "#"> Productos</a>
+                <Link to="/productos"> Productos</Link>
                 <a href= "#"> Contacto</a>
             </div>            
             <div id = "divRight">
