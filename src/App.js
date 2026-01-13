@@ -13,6 +13,8 @@ function App() {
       <MainPageFrameStart />
       <MainPageSecondFrame />
       <MainPageThirdFrameAboutUs />
+      <LeafletMap />
+      <MainPageThirdFrameFindUs />
     </div>
   );
 }
