@@ -1,6 +1,7 @@
 #MainPage-FrameStart{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     background-image: url('../../Image/MainPage-FirstFrame.png');
     background-size: cover;
     background-position: center;
@@ -8,17 +9,16 @@
     justify-content: start;
     align-items: center;
     overflow: hidden;
-    z-index: -1;
+    position: relative;
 }
 
 #transparent-square{
-    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0px 40px;
     margin: 0px 0px 0px -900px;
-    width: 867px;
-    height: 396px;
+    width: 720px;
+    max-width: calc(100% - 40px);
+    height: 340px;
     border-radius: 59px;
     border: 2px solid #675934;
     background-blend-mode: overlay, normal;
@@ -29,9 +29,68 @@
 }
 
 #transparent-square h1{
-    font-family: 'Arial Black', sans-serif;
-    font-weight: 900;
-    font-size: 48px;
-    text-align: center;
-    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    text-shadow: 0 4px 56px rgba(0, 0, 0, 0.25);
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: start; 
+}
+
+/* Tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    #transparent-square{
+        width: 600px;
+        height: 300px;
+        margin: 0px 0px 0px -600px;
+        padding: 0px 30px;
+        border-radius: 45px;
+    }
+    
+    #transparent-square h1{
+        font-size: 42px;
+    }
+}
+
+/* Móviles en horizontal */
+@media (max-width: 768px) {
+    #transparent-square{
+        width: 80%;
+        max-width: 500px;
+        height: 260px;
+        margin: 0;
+        padding: 0px 25px;
+        border-radius: 35px;
+        backdrop-filter: blur(30px);
+        transform: translate(0);
+    }
+    
+    #transparent-square h1{
+        font-size: 28px;
+    }
+}
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+    #MainPage-FrameStart{
+        justify-content: center;
+    }
+    
+    #transparent-square{
+        width: 85%;
+        max-width: 320px;
+        height: auto;
+        min-height: 180px;
+        margin: 0;
+        padding: 20px 15px;
+        border-radius: 25px;
+        backdrop-filter: blur(25px);
+        transform: translate(0);
+    }
+    
+    #transparent-square h1{
+        font-size: 20px;
+        text-align: center;
+    }
 }

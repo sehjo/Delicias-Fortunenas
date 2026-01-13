@@ -1,6 +1,8 @@
 import "./Footer.css";
 import { FaTiktok, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import emailIcon from "../../icons/email.svg";
+import phoneIcon from "../../icons/phone.svg";
 
 const email = "delifortuna.28042020@gmail.com";
 const phone1 = "(506) 8390-2262";
@@ -40,7 +42,7 @@ export function Footer() {
             <div className="email-content">
               <div className="contact-item">
                 <img
-                  src={`${process.env.PUBLIC_URL}/icons/email.svg`}
+                  src={emailIcon}
                   alt="email-icon"
                   className="contact-icon"
                 />
@@ -114,11 +116,12 @@ export function Footer() {
     </footer>
   );
 }
+
 export function TelephoneLink({ phoneNumber }) {
   return (
     <div className="contact-item">
       <img
-        src={`${process.env.PUBLIC_URL}/icons/phone.svg`}
+        src={phoneIcon}
         alt="phone-icon"
         className="contact-icon"
       />
@@ -126,7 +129,7 @@ export function TelephoneLink({ phoneNumber }) {
         href={`tel:${phoneNumber}`}
         onClick={(e) => {
           e.preventDefault();
-          if (window.confirm(`¿Llamar al ${phoneNumber}?`)) {
+          if (window.confirm(`¿Llamar al ${phoneNumber}? \n\nSi se encuentra en PC será redirigido a su aplicación de teléfono por defecto. \nSe recomienda usar un dispositivo móvil.`)) {
             window.location.href = `tel:${phoneNumber}`;
           }
         }}

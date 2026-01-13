@@ -7,37 +7,29 @@
 }
 
 #navbar {
-    background-color: var(--color-beige-background);
+    background-color: #F3E2B3;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     min-height: 125px;    
-    min-width: 700px;
     z-index: 10;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 #divCenter {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 #iconPymeNavbar {
     width: 98px;
     height: 98px;
     border-radius: 385px;
-    border: 3px solid var(--color-brown-dark);
-  
-}
-
-#divCenter a {
-    color: var(--color-brown-dark);
-    font-family: 'ABeeZee', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0px 20px 0px 10px;
-    text-decoration: none;
+    border: 3px solid #553728;
 }
 
 #divCenter a {
@@ -45,8 +37,9 @@
     font-family: 'ABeeZee', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin: 0px 20px 0px 10px;
+    margin: 0px 10px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 #divCenter a:hover {
@@ -56,9 +49,9 @@
 }
 
 @keyframes OptionInicio {
-    0% {color: var(--color-brown-dark); transform: scale(1);}
-    50% {color: var(--color-white-cream); transform: scale(1.2); font-style: inherit;}
-    100% {color: var(--color-brown-dark); transform: scale(1.2); text-decoration: underline;}
+    0% {color: #553728; transform: scale(1);}
+    50% {color: #8B4A2B; transform: scale(1.2); font-style: inherit;}
+    100% {color: #553728; transform: scale(1.2); text-decoration: underline;}
 }
 
 #divRight {
@@ -92,7 +85,7 @@
     height: 50px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    color: var(--color-brown-dark);
+    color: #553728;
 
 }
 
@@ -107,4 +100,77 @@
     0% {filter: invert(0%);}
     50% {filter: invert(70%);}
     100% {filter: invert(0%);}
+}
+
+@media (max-width: 1024px) {
+    #navbar {
+        min-height: 100px;
+    }
+    
+    #iconPymeNavbar {
+        width: 80px;
+        height: 80px;
+    }
+    
+    #divCenter a {
+        font-size: 18px;
+        margin: 0px 8px;
+    }
+    
+    #iconFbNavbar, #iconIgNavbar {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        min-height: 80px;
+        padding: 10px 0;
+    }
+    
+    #iconPymeNavbar {
+        width: 60px;
+        height: 60px;
+    }
+    
+    #divCenter a {
+        font-size: 14px;
+        margin: 0px 5px;
+    }
+    
+    #divLeft, #divRight {
+        margin: 0 8px;
+    }
+    
+    #iconFbNavbar, #iconIgNavbar {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        min-height: 70px;
+        justify-content: space-around;
+    }
+    
+    #iconPymeNavbar {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #divCenter a {
+        font-size: 12px;
+        margin: 0px 3px;
+    }
+    
+    #divLeft, #divRight {
+        margin: 0 5px;
+    }
+    
+    #iconFbNavbar, #iconIgNavbar {
+        width: 30px;
+        height: 30px;
+    }
 }
