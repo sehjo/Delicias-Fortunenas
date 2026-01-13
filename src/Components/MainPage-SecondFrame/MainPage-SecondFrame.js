@@ -1,17 +1,18 @@
 import './MainPage-SecondFrame.css';
+import  imageBread1  from '../../Image/mainpage-secondframe-firstimage.png';
+import imageBread2  from '../../Image/mainpage-secondframe-secondimage.png';
+import imageBread3  from '../../Image/mainpage-secondframe-thirdimage.png';
+import imageBread4  from '../../Image/mainpage-secondframe-fourthimage.png';
+import imageBread5  from '../../Image/mainpage-secondframe-fifthimage.png';
+import imageBread6  from '../../Image/mainpage-secondframe-sixthimage.png';
+import imageBread7  from '../../Image/mainpage-secondframe-seventhimage.png';
+import imageneBread8  from '../../Image/mainpage-secondframe-eighthimage.png';
+import imageBread9  from '../../Image/mainpage-secondframe-ninthimage.png';
+import imageBread10  from '../../Image/mainpage-secondframe-tenthimage.png';
+import imageBread11  from '../../Image/mainpage-secondframe-eleventhimage.png';
+import imageBread12  from '../../Image/mainpage-secondframe-twelfthimage.png';
 
-const imageBread1 = require('../../Image/mainpage-secondframe-firstimage.png');
-const imageBread2 = require('../../Image/mainpage-secondframe-secondimage.png');
-const imageBread3 = require('../../Image/mainpage-secondframe-thirdimage.png');
-const imageBread4 = require('../../Image/mainpage-secondframe-fourthimage.png');
-const imageBread5 = require('../../Image/mainpage-secondframe-fifthimage.png');
-const imageBread6 = require('../../Image/mainpage-secondframe-sixthimage.png');
-const imageBread7 = require('../../Image/mainpage-secondframe-seventhimage.png');
-const imageneBread8 = require('../../Image/mainpage-secondframe-eighthimage.png');
-const imageBread9 = require('../../Image/mainpage-secondframe-ninthimage.png');
-const imageBread10 = require('../../Image/mainpage-secondframe-tenthimage.png');
-const imageBread11 = require('../../Image/mainpage-secondframe-eleventhimage.png');
-const imageBread12 = require('../../Image/mainpage-secondframe-twelfthimage.png');
+
 export default function MainPageSecondFrame() {
     return (
        <div id='container-mainpage-secondframe'>
