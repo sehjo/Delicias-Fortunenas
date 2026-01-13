@@ -122,6 +122,10 @@
     gap: 45px;
 }
 
+.email-content a {
+    cursor: default;
+}
+
 .footer-message {
     color: #FFF7EC;
     text-align: left;
