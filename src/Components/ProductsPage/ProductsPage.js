@@ -192,8 +192,6 @@ export function ProductsPage() {
                 </div>
             </div>
 
-            {/* Footer */}
-            <Footer />
         </div>
     );
 }

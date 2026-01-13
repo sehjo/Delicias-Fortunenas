@@ -14,7 +14,7 @@ export function NavBar() {
             </div>
             <div id="divCenter">
                 <Link to="/"> Inicio</Link>
-                <Link to="/#about"> Acerca</Link>
+                <Link to="/acerca"> Acerca</Link>
                 <img alt="MainIcon" src={iconPymeNavbar} id="iconPymeNavbar"/>
                 <Link to="/productos"> Productos</Link>
                 <a href= "#"> Contacto</a>

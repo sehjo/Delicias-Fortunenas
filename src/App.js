@@ -9,6 +9,7 @@ import MainPageThirdFrameFindUs from './Components/MainPage-ThirdFrame/Find-Us/M
 import MainPageFourthFrame from './Components/MainPage-FourthFrame/MainPage-FourthFrame';
 import About from './Components/AboutSection/About';
 import { ProductsPage } from './Components/ProductsPage/ProductsPage';
+import LeafletMap from './Components/Map/LeafletMap';
 
 function HomePage() {
   return (
@@ -16,9 +17,10 @@ function HomePage() {
       <MainPageFrameStart />
       <MainPageSecondFrame />
       <MainPageThirdFrameAboutUs/>
+      <LeafletMap />
       <MainPageThirdFrameFindUs/>
       <MainPageFourthFrame/>
-      <About />
+      {/* <About /> */}
     </>
   );
 }
@@ -30,8 +32,10 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/acerca" element={<About />} />
           <Route path="/productos" element={<ProductsPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
