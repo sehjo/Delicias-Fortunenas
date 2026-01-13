@@ -28,9 +28,19 @@ export default function MainPageFourthFrame() {
 
             {/* social media icons container */}
             <div id='mainpage-fourthframe-icons-social-media'>
-                <img src={iconTiktok} alt='Community Illustration' id='icon-tiktok' />
-                <img src={iconFacebook} alt='Community Illustration' />
-                <img src={iconInstagram} alt='Community Illustration' />
+
+                <a href='https://www.tiktok.com/@deliciasfortunenas' target='_blank' rel='noreferrer'> 
+                    <img src={iconTiktok} alt='Community Illustration' id='icon-tiktok' />
+                </a>
+                
+                <a href='https://www.facebook.com/p/Delicias-Fortune%C3%B1as-100063545834955/' target='_blank' rel='noreferrer'>
+                    <img src={iconFacebook} alt='Community Illustration' />
+                </a>
+                
+                <a href='https://www.instagram.com/delicias_fortunenas/' target='_blank' rel='noreferrer'>
+                    <img src={iconInstagram} alt='Community Illustration' />
+                </a>
+
             </div>
 
         </div>

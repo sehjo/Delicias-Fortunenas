@@ -9,12 +9,8 @@ import MainPageFourthFrame from './Components/MainPage-FourthFrame/MainPage-Four
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <MainPageFrameStart />
-      <MainPageSecondFrame />
-      <MainPageThirdFrameAboutUs />
-      <LeafletMap />
-      <MainPageThirdFrameFindUs />
+      
+      <MainPageFourthFrame />
     </div>
   );
 }
