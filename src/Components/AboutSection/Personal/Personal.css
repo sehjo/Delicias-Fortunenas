@@ -5,16 +5,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: clamp(2rem, 5vw, 10rem); */
   gap: clamp(2rem, 5vw, 10rem);
-}
-
-@media (max-width: 768px) {
-  .grid-container {
-    flex-direction: column;
-    gap: 3rem;
-    padding: 2rem 1rem;
-  }
 }
 
 .personal-section-title {
@@ -42,7 +33,7 @@
   font-weight: 400;
   margin: 0;
 
-   /* Animacion */
+  /* Animacion */
   transition: all 0.4s ease;
 }
 
@@ -55,7 +46,7 @@
   letter-spacing: 2px;
   margin: 0;
 
-   /* Animacion */
+  /* Animacion */
   transition: all 0.4s ease;
 }
 
@@ -67,7 +58,7 @@
   border-radius: clamp(20px, 3vw, 40px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 
-   /* Animacion */
+  /* Animacion */
   transition: all 0.4s ease;
 }
 
@@ -90,4 +81,17 @@
 .personal-info:hover .personal-photo {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
   transform: translateY(-5px);
+}
+
+/* Móvil y iPad */
+@media (max-width: 768px) {
+  .grid-container {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 1rem;
+  }
+
+  .personal-info h2 {
+    width: 300px;
+  }
 }
