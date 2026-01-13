@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <MainPageFrameStart />
       <MainPageSecondFrame />
+      <MainPageThirdFrameAboutUs />
     </div>
   );
 }
