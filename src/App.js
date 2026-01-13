@@ -8,6 +8,7 @@ import LeafletMap from './Components/Map/LeafletMap';
 import MainPageThirdFrameAboutUs from './Components/MainPage-ThirdFrame/About-us/MainPage-ThirdFrame-AboutUs';
 import MainPageThirdFrameFindUs from './Components/MainPage-ThirdFrame/Find-Us/MainPage-ThirdFrame-FindUs';
 import MainPageFourthFrame from './Components/MainPage-FourthFrame/MainPage-FourthFrame';
+import About from './Components/AboutSection/About';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       <LeafletMap />
       <MainPageThirdFrameFindUs/>
       <MainPageFourthFrame/>
-      </div>
+      {/* About Us section */}
+      <About />
+    </div>
   );
 }
 
