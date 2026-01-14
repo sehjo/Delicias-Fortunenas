@@ -21,7 +21,6 @@
     width: 50vw;
     height: 35vh;
     
-
     /* styles */    
     border-radius: 59px;
     border: 2px solid #675934;
@@ -29,9 +28,18 @@
     backdrop-filter: blur(40px);
 
     /* animation */
-    transform: translate(1000px);
-    transition: all 3s ease;
-    transition-delay: 3s;
+    animation: slideIn 1.5s ease forwards;
+    animation-delay: 0.5s;
+    transform: translateX(-1000px);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(1000px);
+    }
 }
 
 #transparent-square h1{
