@@ -124,7 +124,7 @@
   max-width: clamp(250px, 45%, 500px);
 }
 
-/* Responsive para tablets */
+/* responsive for tablets */
 @media (max-width: 1024px) {
   .about2-container {
     grid-template-columns: 1fr;
@@ -158,7 +158,7 @@
   }
 }
 
-/* Responsive para móviles */
+/* responsive for mobiles */
 @media (max-width: 768px) {
   .about2-container {
     min-height: auto;
