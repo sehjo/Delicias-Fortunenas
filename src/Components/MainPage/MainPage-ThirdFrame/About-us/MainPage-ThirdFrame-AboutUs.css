@@ -163,8 +163,8 @@
         margin-left: 25px;
     }
 }
-/* phone screen  landscape*/
 
+/* phone screen  landscape*/
 @media screen and (max-width: 846px) and (orientation: landscape) {
     #container-thirdframe{
         height: 40vh;

@@ -50,7 +50,7 @@ export default function MainPageFourthFrame() {
         </div>
     );
 }
-
+// this function creates a clickable telephone link with a confirmation
 function TelephoneLink({ phoneNumber }) {
     return (
         <a

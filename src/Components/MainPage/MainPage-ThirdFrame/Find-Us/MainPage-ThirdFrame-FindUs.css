@@ -111,7 +111,7 @@
     }
     
 }
-/* Móviles en vertical (portrait) */
+/* Mobile (portrait) */
 @media screen and (max-width: 480px) {
     #container-thirdframe-findus {
         height: auto;
@@ -151,7 +151,7 @@
     
 }
 
-/* Móviles en horizontal (landscape) */
+/* Mobile (landscape) */
 @media screen and (max-height: 400px) and (orientation: landscape) {
     #container-thirdframe-findus {
         height: auto;

@@ -23,22 +23,6 @@
     }
 }
 
-/* tablet screen*/
-@media (max-width: 778px) {
-
-}
-
-/* tablet screen landscape*/
-@media (max-width: 1025px) and (orientation: landscape) {
-
-
-}
-
-/* pc large screen */
-@media screen and (min-width: 1500px){
-
-}
-
 
 /* phone screen */
 @media (max-width: 480px) {
@@ -48,10 +32,4 @@
         object-fit: fill;
     }
 
-}
-/* phone screen  landscape*/
-
-@media screen and (max-width: 846px) and (orientation: landscape) {
-    
-  
 }

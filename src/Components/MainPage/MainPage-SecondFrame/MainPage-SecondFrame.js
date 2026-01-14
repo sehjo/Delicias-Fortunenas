@@ -12,12 +12,11 @@ import imageBread10  from '../../../Image/mainpage-secondframe-tenthimage.png';
 import imageBread11  from '../../../Image/mainpage-secondframe-eleventhimage.png';
 import imageBread12  from '../../../Image/mainpage-secondframe-twelfthimage.png';
 
-
 export default function MainPageSecondFrame() {
     return (
        <div id='container-mainpage-secondframe'>
             <div>
-
+                {/* first row of images */} 
                 <div id="div-imagen-1">
                     <img alt = "ImagenBread1" src={imageBread1}/>
                 </div>
@@ -28,7 +27,7 @@ export default function MainPageSecondFrame() {
                     <img alt = "ImagenBread3" src={imageBread3}/>
                 </div>
             </div>
-
+            {/* second row of images */}
             <div>
                 <div id="div-imagen-4">
                     <img alt = "ImagenBread4" src={imageBread4}/>
@@ -41,7 +40,7 @@ export default function MainPageSecondFrame() {
                 </div>
 
             </div>
-
+            {/* third row of images */}
             <div>
                 <div id="div-imagen-7">
                     <img alt = "ImagenBread7" src= {imageBread7}/>
@@ -56,6 +55,7 @@ export default function MainPageSecondFrame() {
             </div>
 
             <div>
+                {/* fourth row of images */}
                 <div id="div-imagen-10">
                     <img alt = "ImagenBread10" src={imageBread10}/>
                 </div>
@@ -65,11 +65,8 @@ export default function MainPageSecondFrame() {
                 <div id="div-imagen-12">
                     <img alt = "ImagenBread12" src={imageBread12}/>
                 </div>
-
             </div>
-
         </div>
         
     );
-
 }

@@ -1,5 +1,5 @@
 #MainPage-FrameStart{
-    /* disposicion */ 
+    /* disposition */ 
     height: 86vh;
     width: 100vw;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 #transparent-square{
-    /* disposicion */    
+    /* disposition */    
     display: flex;
     padding: 0px 40px;
     margin: 0px 0px 0px -900px;
@@ -28,7 +28,7 @@
     background-blend-mode: overlay, normal;
     backdrop-filter: blur(40px);
 
-    /* animacion */
+    /* animation */
     transform: translate(1000px);
     transition: all 3s ease;
     transition-delay: 3s;
