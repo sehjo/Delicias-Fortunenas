@@ -25,7 +25,7 @@ export default function LeafletMap() {
       center={position}
       zoom={12}
       scrollWheelZoom={true}
-      style={{ height: "252px", width: "100%" }}
+      style={{ height: "252px", width: "100%", zIndex: "0" }}
     >
       
       <TileLayer
