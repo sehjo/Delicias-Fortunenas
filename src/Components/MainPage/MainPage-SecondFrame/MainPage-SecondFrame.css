@@ -1,0 +1,57 @@
+#container-mainpage-secondframe > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+}
+
+#container-mainpage-secondframe > div > div{
+    width: 100%;
+    height: 100%;
+}
+
+#container-mainpage-secondframe img{
+    width: 100%;
+    height: 101%;
+    object-fit:cover;
+    display: block;
+}
+
+/* pc landscape*/
+@media screen and (min-width: 900px) and (max-width: 1499px) and (min-height: 1400px) {
+    #container-mainpage-secondframe{
+        height: 0vh;
+    }
+}
+
+/* tablet screen*/
+@media (max-width: 778px) {
+
+}
+
+/* tablet screen landscape*/
+@media (max-width: 1025px) and (orientation: landscape) {
+
+
+}
+
+/* pc large screen */
+@media screen and (min-width: 1500px){
+
+}
+
+
+/* phone screen */
+@media (max-width: 480px) {
+    #container-mainpage-secondframe img{
+        height: 30vh;
+        width: 35vw;
+        object-fit: fill;
+    }
+
+}
+/* phone screen  landscape*/
+
+@media screen and (max-width: 846px) and (orientation: landscape) {
+    
+  
+}

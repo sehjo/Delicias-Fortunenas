@@ -1,0 +1,192 @@
+#container-thirdframe-findus{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    background: linear-gradient(0deg, #553728 0%, #553728 100%), #8B4A2B;
+}
+
+#text-find-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #E6A15C;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+#btn-waze{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#icon-waze{
+    width: 8vw;
+    height: 10vh;
+}
+
+#thirdframe-location{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#thirdframe-location > p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-style: normal;
+    line-height: 0%; 
+}
+
+#icon-maps{
+        width: 5vw;
+        height: 8vh;
+}
+
+@media screen and (max-width: 1124px) {
+    #container-thirdframe-findus {
+        height: 10vh;
+        gap: 10vh;
+        padding: 5vh 0;
+    }
+
+    #text-find-us {
+        font-size: 3vh;
+    }
+
+    #thirdframe-location > p {
+        font-size: 2vh;
+    }
+    
+    #icon-maps{
+        width: 4vw;
+        height: 6vh;
+    }
+
+    #icon-waze{
+        width: 10vw;
+        height: 10vh;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #container-thirdframe-findus {
+        height: auto;
+        gap: 2vh;
+        padding: 5vh 0;
+    
+    }
+
+    #text-find-us {
+        font-size: 2vh;
+    }
+
+    #thirdframe-location > p {
+        font-size: 1.5vh;
+    }
+
+    #icon-maps{
+        width: 7vw;
+        height: 6vh;
+    }
+
+    #icon-waze{
+        width: 13vw;
+        height: 10vh;
+    }
+    
+}
+/* Móviles en vertical (portrait) */
+@media screen and (max-width: 480px) {
+    #container-thirdframe-findus {
+        height: auto;
+        gap: 2vh;
+        padding: 4vh 2vw;
+    }
+
+    #text-find-us {
+        font-size: 1.3vh;
+    }
+
+    #btn-waze {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    #thirdframe-location > p {
+        font-size: 0.8vh;
+        
+    }
+
+    #icon-waze{
+        width: 9vw;
+        height: 5vh;
+    }
+
+    #icon-maps{
+        width: 5vw;
+        height: 3vh;
+        
+    }
+
+    #thirdframe-location{
+        margin-left: 20px;
+    }
+
+    
+}
+
+/* Móviles en horizontal (landscape) */
+@media screen and (max-height: 400px) and (orientation: landscape) {
+    #container-thirdframe-findus {
+        height: auto;
+        gap: 20vh;
+        padding: 3vh;
+        flex-direction: row;
+    }
+
+    #text-find-us {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    #btn-waze {
+        width: auto;
+        height: auto;
+    }
+
+    #thirdframe-location > p {
+        font-size: 12px;
+        line-height: normal;
+        margin: 2px 0;
+    }
+
+    #icon-waze{
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon-maps{
+        width: 35px;
+        height: 35px;
+    }
+
+    #thirdframe-location{
+        margin-left: 0;
+    }
+}
