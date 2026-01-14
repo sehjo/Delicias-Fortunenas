@@ -10,10 +10,12 @@
     border: 3px solid #85603d;
     width: 100%;
     max-width: 350px;
+    min-width: 280px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animations */
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 /* Hover effect - card lifts up a bit */
