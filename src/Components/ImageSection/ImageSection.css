@@ -32,7 +32,7 @@
 }
 
 
-/* Animación de zoom suave en la imagen */
+/* Smooth zoom animation on the image */
 @keyframes zoomIn {
   0% {
     transform: scale(1);
@@ -42,7 +42,7 @@
   }
 }
 
-/* Animación de aparición del contenido */
+/* Content appearance animation */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -54,7 +54,7 @@
   }
 }
 
-/* Animación del título desde la izquierda */
+/* Title animation from the left */
 @keyframes slideInLeft {
   0% {
     opacity: 0;
@@ -66,7 +66,7 @@
   }
 }
 
-/* Animación del subtítulo desde la derecha */
+/* Subtitle animation from the right */
 @keyframes slideInRight {
   0% {
     opacity: 0;
