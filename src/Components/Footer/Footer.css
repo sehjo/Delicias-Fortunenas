@@ -142,7 +142,7 @@
     }
 }
 
-/* Tablets pequeñas y móviles grandes */
+/* Small tablets and large mobile */
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
@@ -162,7 +162,7 @@
     }
 }
 
-/* Móviles */
+/* Mobile */
 @media (max-width: 480px) {
     .footer-content {
         padding: 24px 16px;

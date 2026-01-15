@@ -110,7 +110,7 @@
   }
 }
 
-/* Responsive para móviles */
+/* Responsive for mobile */
 @media (max-width: 768px) {
   .about2-container {
     min-height: auto;

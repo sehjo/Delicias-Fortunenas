@@ -53,7 +53,7 @@
     }
 }
 
-/* Móviles en horizontal */
+/* Mobile horizontal */
 @media (max-width: 768px) {
     #transparent-square{
         width: 80%;
@@ -71,7 +71,7 @@
     }
 }
 
-/* Móviles en vertical */
+/* Mobile vertical */
 @media (max-width: 480px) {
     #MainPage-FrameStart{
         justify-content: center;

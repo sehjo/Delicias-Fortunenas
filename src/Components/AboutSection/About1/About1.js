@@ -64,12 +64,12 @@ export function About1() {
   );
 }
 
-// Misión
-// “Elaborar productos de panadería artesanal que combinen la tradición costarricense con técnicas de
-// alta calidad, utilizando ingredientes frescos y procesos honestos para llevar bienestar y sabor
-// auténtico a cada hogar y negocio que confía en nosotros.”
+// Mission
+// "To produce artisanal bakery products that combine Costa Rican tradition with high-quality techniques,
+// using fresh ingredients and honest processes to bring wellness and authentic flavor
+// to every home and business that trusts us."
 
-// Visión
-// “Consolidarnos como la panadería artesanal de referencia en la zona, siendo reconocidos por
-// nuestra innovación constante, el respeto a los tiempos de fermentación natural y el compromiso
-// con la excelencia que nos permitió transformar un sueño nacido en casa en un legado de calidad.”
+// Vision
+// "To establish ourselves as the leading artisanal bakery in the area, being recognized for
+// our constant innovation, respect for natural fermentation times, and commitment
+// to excellence that allowed us to transform a home-born dream into a legacy of quality."

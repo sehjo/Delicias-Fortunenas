@@ -31,14 +31,14 @@
     }
 }
 
-/* Móviles en horizontal */
+/* Mobile horizontal */
 @media (max-width: 768px) {
     #container-mainpage-secondframe img{
         max-height: 180px;
     }
 }
 
-/* Móviles en vertical */
+/* Mobile vertical */
 @media (max-width: 480px) {
     #container-mainpage-secondframe img{
         max-height: 120px;

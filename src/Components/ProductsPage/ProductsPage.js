@@ -3,7 +3,7 @@ import './ProductsPage.css';
 import { Footer } from '../Footer/Footer';
 import { ProductCard } from '../ProductCard/ProductCard';
 
-// Importar todas las imágenes de productos
+// Import all product images
 import artisanalPanini from '../../Image/artisanal_panini_sandwiches.png';
 import briocheBun from '../../Image/brioche_hamburger_bun.png';
 import carrotCake from '../../Image/carrot_cake.png';
@@ -19,13 +19,13 @@ import signatureBrioche2 from '../../Image/Signature_brioche_with_local_butter_2
 import slicedBread from '../../Image/sliced_bread.png';
 import tresLechesCake from '../../Image/tres_leches_cake.png';
 
-// Imagen para la sección del medio
+// Image for the middle section
 import chefImage from '../../Image/johanna_image.jpeg';
 
 export function ProductsPage() {
-    // Definir todos los productos organizados por categoría
+    // Define all products organized by category
     const products = [
-        // Categoría: Panes Especiales y Paninis
+        // Category: Special Breads and Paninis
         {
             id: 1,
             title: "Panini Artesanal",
@@ -54,7 +54,7 @@ export function ProductsPage() {
             price: "",
             image: oatsBun
         },
-        // Categoría: Panes de Molde Premium
+        // Category: Premium Sliced Breads
         {
             id: 9,
             title: "Pan Multigrano Ancestral",
@@ -90,7 +90,7 @@ export function ProductsPage() {
             price: "",
             image: slicedBread
         },
-        // Categoría: Repostería de Temporada
+        // Category: Seasonal Bakery
         {
             id: 3,
             title: "Rollos de Canela",
@@ -128,20 +128,20 @@ export function ProductsPage() {
         }
     ];
 
-    // Dividir productos en dos mitades
+    // Split products into two halves
     const firstHalf = products.slice(0, 6);
     const secondHalf = products.slice(6);
 
     return (
         <div className="products-page">
-            {/* Contenido principal */}
+            {/* Main content */}
             <div className="products-content">
-                {/* Texto superior */}
+                {/* Header text */}
                 <div className="products-header">
                     <p>Nuestros panes son los mas sabrosos</p>
                 </div>
 
-                {/* Primera mitad de productos (6 cards) */}
+                {/* First half of products (6 cards) */}
                 <div className="products-grid">
                     {firstHalf.map(product => (
                         <ProductCard
@@ -154,7 +154,7 @@ export function ProductsPage() {
                     ))}
                 </div>
 
-                {/* Sección del medio con imagen y texto */}
+                {/* Middle section with image and text */}
                 <div className="middle-section">
                     <div className="middle-content">
                         <div className="middle-text">
@@ -177,7 +177,7 @@ export function ProductsPage() {
                     </div>
                 </div>
 
-                {/* Segunda mitad de productos (restantes) */}
+                {/* Second half of products (remaining) */}
                 <div className="products-grid">
                     {secondHalf.map(product => (
                         <ProductCard

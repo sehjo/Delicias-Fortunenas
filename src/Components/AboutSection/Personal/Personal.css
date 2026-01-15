@@ -78,7 +78,7 @@
   filter: grayscale(30%);
 }
 
-/* La card con hover recupera tamaño y se agranda más */
+/* Card with hover recovers size and grows larger */
 .grid-container:hover .personal-info:hover {
   transform: scale(1.08);
   opacity: 1;
