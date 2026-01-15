@@ -5,7 +5,7 @@ export default function MainPageThirdFrameFindUs() {
     return (
         <div id="container-thirdframe-findus">
             <div id='text-find-us'>
-                <h1>Encuentranos en...</h1>
+                <h1>Encuéntranos en...</h1>
             </div>
              <div>
                 <button id='btn-waze'>
