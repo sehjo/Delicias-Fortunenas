@@ -132,9 +132,9 @@
     line-height: 1.6;
 }
 
-/* ===== RESPONSIVIDAD ===== */
+/* ===== Responsive ===== */
 
-/* Tablets (pantallas medianas) */
+/* Tablets  */
 @media (max-width: 1024px) {
     .footer-content {
         padding: 40px 40px;
@@ -146,7 +146,7 @@
     }
 }
 
-/* Tablets pequeñas y móviles grandes */
+/* big mobiles */
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
@@ -166,7 +166,7 @@
     }
 }
 
-/* Móviles */
+/* mobiles */
 @media (max-width: 480px) {
     .footer-content {
         padding: 24px 16px;

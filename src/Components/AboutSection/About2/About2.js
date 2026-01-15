@@ -1,5 +1,5 @@
 import "./About2.css";
-import panesBaguette from "../../../Video/panesbaguette.mp4";
+import Baguette from "../../../Video/panesbaguette.mp4";
 
 export function About2() {
   return (
@@ -28,7 +28,7 @@ export function About2() {
 
         <div>
           <video autoPlay loop muted playsInline className="about2-video">
-            <source src={panesBaguette} type="video/mp4" />
+            <source src={Baguette} type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
         </div>

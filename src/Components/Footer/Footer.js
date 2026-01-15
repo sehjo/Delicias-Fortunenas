@@ -18,7 +18,7 @@ export function Footer() {
     <footer>
       <div className="footer-background">
         <div className="footer-content">
-          {/*Horario*/}
+          {/*Schedule*/}
           <div className="column-footer">
             <h3 className="subtitle-footer">Horario</h3>
             <div>
@@ -90,7 +90,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/*Telefonos*/}
+          {/*Phones*/}
           <div className="column-footer">
             <h3 className="subtitle-footer">Telefonos</h3>
             <div className="contact-content">
@@ -99,7 +99,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/*Mensaje*/}
+          {/*Message*/}
           <div className="column-footer">
             <h3 className="subtitle-footer">¡Contáctanos!</h3>
             <p className="footer-message">
