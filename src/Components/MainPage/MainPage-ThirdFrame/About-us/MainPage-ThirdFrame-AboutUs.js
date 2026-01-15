@@ -7,7 +7,7 @@ export default function MainPageThirdFrame() {
                 <p>Acerca de Nosotros</p>
             </div>
             <div>
-                <button id='btn-read-more'>Leér mas</button>
+                <button id='btn-read-more'>Leer mas</button>
             </div>
         </div>
     );
