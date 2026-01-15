@@ -1,6 +1,6 @@
 import './MainPage-FourthFrame.css';
 import iconTiktok from "../../../Image/tiktokIcon.png";
-import iconFacebook from "../../../Image//FacebookIconFourthFrame.png";
+import iconFacebook from "../../../Image/FacebookIconFourthFrame.png";
 import iconInstagram from "../../../Image/InstagramIconFourthFrame.png"
 import iconPhone from "../../../Image/iconPhone.png";
 import iconEmail from "../../../Image/email-icon-fourthframe.png";
