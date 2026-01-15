@@ -17,7 +17,7 @@
     /* disposition */    
     display: flex;
     padding: 0px 40px;
-    margin: 0px 0px 0px calc(-100vw - 50px);
+    margin: 0px 0px 0px calc(-100vw);
     width: 50vw;
     height: 35vh;
     
@@ -46,10 +46,11 @@
     font-family: 'Poppins', sans-serif;
     color: #FFF;
     text-shadow: 0 4px 56px rgba(0, 0, 0, 0.25);   
-    font-size: 58px;
     font-weight: 700;
     line-height: 120%;
     text-align: start; 
+    font-size: 7vh;
+
 }
 
 /* pc landscape*/
@@ -64,7 +65,7 @@
         margin: 0px;
         width: 50vw;
         height: 35vh;    
-        margin: -70px 0px 0px calc(-100vw - 20px);
+        margin: -70px 0px 0px calc(-100vw - 50px);
     }
 
     #transparent-square h1{
@@ -83,8 +84,12 @@
         margin: 0px;
         width: 70vw;
         height: 35vh;
-        padding: 20px 20px;
-        margin: -70px 0px 0px calc(-100vw - 20px);
+        padding: 0px 20px;
+        margin: -90px 0px 0px calc(-100vw - 20px);
+    }
+
+    #transparent-square h1{
+        font-size: 6vh;
     }
 }
 
@@ -154,10 +159,14 @@
         width: 80vw;
         height: 40vh;
         padding: 20px 20px;
-        margin: -70px 0px 0px calc(-100vw - 75px);
+        margin: -10vh 0px 0px calc(-100vw - 35px);
+        border-radius: 59px;
+        border: 0.1px solid #675934;
+        background-blend-mode: overlay, normal;
+        backdrop-filter: blur(6px);
     }
     
     #transparent-square h1{
-        font-size: 39px;
+        font-size: 5vw;
     }
 }
