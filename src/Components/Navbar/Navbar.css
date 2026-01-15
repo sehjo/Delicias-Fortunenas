@@ -4,6 +4,12 @@
     --color-brown-dark: #553728;
     --color-beige-background: #F3E2B3;
     --color-white-cream: #fffdf9;
+    
+    /* Z-index layering system */
+    --z-index-map: 0;
+    --z-index-content: 2;
+    --z-index-hover: 3;
+    --z-index-navbar: 10;
 }
 
 #navbar {
@@ -13,7 +19,7 @@
     position: sticky;
     top: 0;
     min-height: 14vh;    
-    z-index: 10;
+    z-index: var(--z-index-navbar);
     width: 100vw;
     flex-wrap: wrap;
 }

@@ -17,7 +17,7 @@
     /* disposition */    
     display: flex;
     padding: 0px 40px;
-    margin: 0px 0px 0px -900px;
+    margin: 0px 0px 0px calc(-100vw - 50px);
     width: 50vw;
     height: 35vh;
     
@@ -35,10 +35,10 @@
 
 @keyframes slideIn {
     from {
-        transform: translateX(-1000px);
+        transform: translateX(calc(-100vw - 50px));
     }
     to {
-        transform: translateX(1000px);
+        transform: translateX(calc(100vw + 50px));
     }
 }
 
@@ -64,7 +64,7 @@
         margin: 0px;
         width: 50vw;
         height: 35vh;    
-        margin: -70px 0px 0px -900px;
+        margin: -70px 0px 0px calc(-100vw - 20px);
     }
 
     #transparent-square h1{
@@ -84,7 +84,7 @@
         width: 70vw;
         height: 35vh;
         padding: 20px 20px;
-        margin: -70px 0px 0px -900px;
+        margin: -70px 0px 0px calc(-100vw - 20px);
     }
 }
 
@@ -100,7 +100,7 @@
         width: 70vw;
         height: 45vh;
         padding: 20px 20px;
-        margin: -70px 0px 0px -900px;
+        margin: -70px 0px 0px calc(-100vw - 20px);
     }
 
 }
@@ -111,7 +111,7 @@
         margin: 0px;
         width: 40vw;
         height: 35vh;    
-        margin: -70px 0px 0px -900px;
+        margin: -70px 0px 0px calc(-100vw - 20px);
     }
 
     #transparent-square h1{
@@ -132,7 +132,7 @@
         width: 80vw;
         height: 30vh;
         padding: 20px 20px;
-        margin: -70px 0px 0px -990px;
+        margin: -70px 0px 0px calc(-100vw - 30px);
     }
 
     #transparent-square h1{
@@ -154,7 +154,7 @@
         width: 80vw;
         height: 40vh;
         padding: 20px 20px;
-        margin: -70px 0px 0px -950px;
+        margin: -70px 0px 0px calc(-100vw - 75px);
     }
     
     #transparent-square h1{
