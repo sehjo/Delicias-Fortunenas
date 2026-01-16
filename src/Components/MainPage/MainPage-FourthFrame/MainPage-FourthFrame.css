@@ -6,6 +6,7 @@
     justify-content: center;
     background: linear-gradient(0deg, #F3E2B3 0%, #F3E2B3 100%);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    gap: 2vw;    
 }
 
 #mainpage-fourthframe-contact-us{
@@ -15,6 +16,7 @@
     justify-content: flex-end;
     width: 30vw;
     height: 25vh;
+    margin-top: 10vh;
 
 }
 
@@ -24,10 +26,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 6vw;
     font-style:bold;
-    margin: 0;
+    margin: 3vh 0vh 2vh 0vh;
     padding: 0;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 #container-phones{
@@ -111,6 +112,8 @@
         width: 40vw;
         height: 20vh;
         margin-left: 3vw;
+        margin-top: 0vh;
+
     }
 
     #mainpage-fourthframe-contact-us > h1{
@@ -161,6 +164,8 @@
         margin-left: -10vw;
         align-items: flex-start;
         text-align: center;
+        margin-top: 0vh;
+
     }
 
     #mainpage-fourthframe-contact-us > h1{
@@ -188,7 +193,24 @@
     #mainpage-fourthframe-contact-us{
         width: 40vw;
         height: 20vh;
+        margin-top: 0vh;
         
         margin: 13vw 0px 0px 3vw;
     }
+}
+
+/*pc screen media*/
+@media screen and (width: 1440px) and (height: 900px){
+
+    #mainpage-fourthframe{
+        gap: 0vw;    
+        
+
+    }
+
+    #mainpage-fourthframe-contact-us{
+        margin-top: -6vh;
+        gap: 0vw;
+    }
+
 }
