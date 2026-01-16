@@ -4,6 +4,12 @@
     --color-brown-dark: #553728;
     --color-beige-background: #F3E2B3;
     --color-white-cream: #fffdf9;
+    
+    /* Z-index layering system */
+    --z-index-map: 0;
+    --z-index-content: 2;
+    --z-index-hover: 3;
+    --z-index-navbar: 10;
 }
 
 #navbar {
@@ -12,9 +18,9 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    min-height: 125px;    
-    z-index: 10;
-    width: 100%;
+    min-height: 14vh;    
+    z-index: var(--z-index-navbar);
+    width: 100vw;
     flex-wrap: wrap;
 }
 
@@ -22,22 +28,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 1vw;
 }
 
 #iconPymeNavbar {
-    width: 98px;
-    height: 98px;
-    border-radius: 385px;
-    border: 3px solid #553728;
+    width: 10.5vh;
+    height: 10.5vh;
+    border-radius: 50%;
+    border: 0.3vh solid #553728;
 }
 
 #divCenter a {
     color: #553728;
     font-family: 'ABeeZee', sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    margin: 0px 10px;
+    font-size: 1.4vw;
+    margin: 0 1vw;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -58,19 +64,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 1.5vw;
 }
 
 #divLeft{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 1.5vw;
 }
     
 #iconFbNavbar{
-    width: 45px;
-    height: 50px;
+    width: 5vh;
+    height: 5.5vh;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
@@ -81,8 +87,8 @@
 }
 
 #iconIgNavbar{
-    width: 50px;
-    height: 50px;
+    width: 5.5vh;
+    height: 5.5vh;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     color: #553728;
@@ -104,73 +110,73 @@
 
 @media (max-width: 1024px) {
     #navbar {
-        min-height: 100px;
+        min-height: 12vh;
     }
     
     #iconPymeNavbar {
-        width: 80px;
-        height: 80px;
+        width: 9vh;
+        height: 9vh;
     }
     
     #divCenter a {
-        font-size: 18px;
-        margin: 0px 8px;
+        font-size: 1.8vw;
+        margin: 0 0.8vw;
     }
     
     #iconFbNavbar, #iconIgNavbar {
-        width: 40px;
-        height: 40px;
+        width: 4.5vh;
+        height: 4.5vh;
     }
 }
 
 @media (max-width: 768px) {
     #navbar {
-        min-height: 80px;
-        padding: 10px 0;
+        min-height: 10vh;
+        padding: 1vh 0;
     }
     
     #iconPymeNavbar {
-        width: 60px;
-        height: 60px;
+        width: 7vh;
+        height: 7vh;
     }
     
     #divCenter a {
-        font-size: 14px;
-        margin: 0px 5px;
+        font-size: 2.2vw;
+        margin: 0 0.8vw;
     }
     
     #divLeft, #divRight {
-        margin: 0 8px;
+        margin: 0 1vw;
     }
     
     #iconFbNavbar, #iconIgNavbar {
-        width: 35px;
-        height: 35px;
+        width: 4vh;
+        height: 4vh;
     }
 }
 
 @media (max-width: 480px) {
     #navbar {
-        min-height: 70px;
+        min-height: 9vh;
         justify-content: space-around;
     }
     
     #iconPymeNavbar {
-        width: 50px;
-        height: 50px;
+        width: 6vh;
+        height: 6vh;
     }
     
     #divCenter a {
-        font-size: 12px;
-        margin: 0px 3px;
+        font-size: 2.8vw;
+        margin: 0 0.5vw;
     }
     
     #divLeft, #divRight {
-        margin: 0 5px;
+        margin: 0 0.8vw;
     }
     
     #iconFbNavbar, #iconIgNavbar {
-        width: 30px;
-        height: 30px;
+        width: 3.5vh;
+        height: 3.5vh;
     }
 }

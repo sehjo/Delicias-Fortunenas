@@ -38,9 +38,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
+
 
 #thirdframe-location > p {
     color: #fff;
@@ -111,7 +111,7 @@
     }
     
 }
-/* Mobile vertical (portrait) */
+/* Mobile (portrait) */
 @media screen and (max-width: 480px) {
     #container-thirdframe-findus {
         height: auto;
@@ -151,17 +151,18 @@
     
 }
 
-/* Mobile horizontal (landscape) */
+/* Mobile (landscape) */
 @media screen and (max-height: 400px) and (orientation: landscape) {
     #container-thirdframe-findus {
         height: auto;
-        gap: 20vh;
+        gap: 4vh;
         padding: 3vh;
+        width: 96vw;
         flex-direction: row;
     }
 
     #text-find-us {
-        font-size: 16px;
+        font-size: 2vw;
         white-space: nowrap;
     }
 
@@ -171,7 +172,7 @@
     }
 
     #thirdframe-location > p {
-        font-size: 12px;
+        font-size: 2vw;
         line-height: normal;
         margin: 2px 0;
     }
