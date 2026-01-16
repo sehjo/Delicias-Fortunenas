@@ -1,5 +1,5 @@
 import "./About3.css";
-import panArtesanal from "../../../Image/pan.png";
+import artisanBread from "../../../Image/pan.png";
 import contactIcon from "../../../icons/Vector.svg";
 
 export function About3() {
@@ -7,7 +7,7 @@ export function About3() {
     <>
       <div className="about3-container">
         <div className="about3-img-container">
-          <img src={panArtesanal} alt="Pan Artesanal" />
+          <img src={artisanBread} alt="Pan Artesanal" />
         </div>
 
         <div className="about3-text-container">

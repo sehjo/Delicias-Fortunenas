@@ -1,5 +1,5 @@
 import "./ImageSection.css";
-import panesImage from "../../Image/panes2.png";
+import breadImage from "../../Image/panes2.png";
 
 export function ImageSection() {
   return (
@@ -9,7 +9,7 @@ export function ImageSection() {
         </div>
       </div>
       <div className="image-section-background">
-        <img src={panesImage} alt="Deliciosos panes artesanales" />
+        <img src={breadImage} alt="Deliciosos panes artesanales" />
       </div>
     </section>
   );

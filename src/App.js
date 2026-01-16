@@ -14,13 +14,12 @@ import LeafletMap from './Components/Map/LeafletMap';
 function HomePage() {
   return (
     <>
-      {/* <MainPageFrameStart />
+      <MainPageFrameStart />
       <MainPageSecondFrame />
       <MainPageThirdFrameAboutUs/>
       <LeafletMap />
       <MainPageThirdFrameFindUs/>
-      <MainPageFourthFrame/> */}
-      {/* <About /> */}
+      <MainPageFourthFrame/> 
     </>
   );
 }

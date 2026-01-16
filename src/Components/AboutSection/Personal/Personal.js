@@ -1,7 +1,7 @@
 import "./Personal.css";
 import thomasMarion from "../../../Image/ThomasyMarion.png";
 import eduardoMiranda from "../../../Image/EduardoMiranda.png";
-import JohannaVargas from "../../../Image/JohannaVargas.png";
+import JohannaVargas from "../../../Image/johanna_image.jpeg";
 
 export function Personal() {
   return (
@@ -32,11 +32,11 @@ export function Personal() {
   );
 }
 
-export function PersonalCard({ src, alt, titulo, desc }) {
+export function PersonalCard({ src, alt, title, desc }) {
   return (
     <section className="personal-info">
       <img src={src} alt={alt} className="personal-photo" />
-      <h2>{titulo}</h2>
+      <h2>{title}</h2>
       <h3>{desc}</h3>
     </section>
   );

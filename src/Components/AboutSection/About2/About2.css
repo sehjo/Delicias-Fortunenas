@@ -97,7 +97,9 @@
 
 .objetive-question {
     padding-top: 1vh;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about2-container p {
