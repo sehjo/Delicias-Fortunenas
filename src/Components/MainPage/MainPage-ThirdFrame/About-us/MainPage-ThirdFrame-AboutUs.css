@@ -142,14 +142,13 @@
     #container-thirdframe{
         height: 20vh;
         width: 100vw;
-        gap: 2vw;
         flex-direction: column;
-        padding-bottom: 20px;
+        justify-content: center;
+        padding-bottom: 4vh;
     }
 
     #container-thirdframe > div{
-        width: 85vw;
-        height: auto;
+        height: 10vh;
     }
 
     #text-about-us{
