@@ -1,6 +1,7 @@
 import './Navbar.css';
 import iconPymeNavbar from '../../Image/Company_Logo.png';
 import iconFb from '../../Image/iconFb.svg';
+
 import { FaInstagram } from "react-icons/fa";   
 
 const pathIndex = '../../../public/index.html'
