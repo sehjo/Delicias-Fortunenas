@@ -27,18 +27,18 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-3" className="bread-container">
                     <img alt = "ImagenBread3" src={imageBread3}/>
-                    <span className="bread-name">Pan Integral</span>
+                    <span className="bread-name">Realizamos Pedidos</span>
                 </div>
             </div>
             {/* second row of images */}
             <div>
                 <div id="div-imagen-4" className="bread-container">
                     <img alt = "ImagenBread4" src={imageBread4}/>
-                    <span className="bread-name">Pan de Hamburguesa</span>
+                    <span className="bread-name">Brioche de Autor</span>
                 </div>
                 <div id="div-imagen-5" className="bread-container">
                     <img alt = "ImagenBread5" src={imageBread5}/>
-                    <span className="bread-name">Baguette</span>
+                    <span className="bread-name">Pan de Hamburguesa</span>
                 </div>
                 <div id="div-imagen-6" className="bread-container">
                     <img alt = "ImagenBread6" src={imageBread6}/>
@@ -57,7 +57,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-9" className="bread-container">
                     <img alt = "ImagenBread9" src={imageBread9}/>
-                    <span className="bread-name">Pan Artesanal</span>
+                    <span className="bread-name">Pan de Hamburguesa Enriquecido</span>
                 </div>
             </div>
             <div>
@@ -68,7 +68,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-11" className="bread-container">
                     <img alt = "ImagenBread11" src={imageBread11}/>
-                    <span className="bread-name">Pan Francés</span>
+                    <span className="bread-name">Hechos con Pasion y Calidad</span>
                 </div>
                 <div id="div-imagen-12" className="bread-container">
                     <img alt = "ImagenBread12" src={imageBread12}/>
