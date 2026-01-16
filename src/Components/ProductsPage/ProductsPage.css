@@ -193,6 +193,7 @@
     .middle-text p {
         font-size: 15px;
         color: #F3E2B3;
+        width: 40vw;
     }
 
     .contact-button {
@@ -262,6 +263,8 @@
     .products-header p {
         font-size: 14px;
         padding: 0 10px;
+        width: 50vw;
+       
     }
 
     .contact-button {
@@ -299,6 +302,7 @@
     .middle-text p {
         font-size: 13px;
         color: #F3E2B3;
+        width: 70vw;
     }
 
     .contact-button {
