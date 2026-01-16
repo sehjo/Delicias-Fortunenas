@@ -17,7 +17,7 @@ export function NavBar() {
                 <Link to="/acerca"> Acerca</Link>
                 <img alt="MainIcon" src={iconPymeNavbar} id="iconPymeNavbar"/>
                 <Link to="/productos"> Productos</Link>
-                <a href= "#"> Contacto</a>
+                <Link to="/contacto"> Contacto</Link>
             </div>            
             <div id = "divRight">
                 <a href= "https://www.instagram.com/delicias_fortunenas/" target="_blank" rel="noopener noreferrer"> 
