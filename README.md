@@ -11,6 +11,9 @@ npm install react-leaflet
 ### install icons library
 npm install react-icons
 
+### install routes
+npm install react-router-dom
+
 ## Available Scripts
 
 In the project directory, you can run:

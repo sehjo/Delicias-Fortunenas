@@ -1,0 +1,130 @@
+.about2-container {
+  background-color: #fff7ec;
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0px;
+}
+
+.about2-container > div:first-child {
+  padding: clamp(2rem, 5vw, 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about2-container > div:last-child {
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.about2-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about2-container h1 {
+  color: #8b4a2b;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(32px, 6vw, 60px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: -1.2px;
+}
+
+.about2-container h2 {
+  color: #553728;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(24px, 4vw, 36px);
+  font-style: normal;
+  font-weight: 750;
+  line-height: 125%;
+  letter-spacing: -0.36px;
+}
+
+.about2-container h3 {
+  color: #553728;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(20px, 3vw, 30px);
+  font-style: normal;
+  font-weight: 750;
+  line-height: 125%;
+  letter-spacing: -0.36px;
+}
+
+.objetive-question {
+    padding-top: 1vh;
+    justify-items: center;
+}
+
+.about2-container p {
+  color: #553728;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(16px, 2vw, 20px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.about2-text-container {
+  align-items: top;
+}
+
+.objetive-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: clamp(1rem, 3vw, 2rem);
+}
+.objetive-info {
+  text-align: justify;
+  max-width: clamp(250px, 45%, 500px);
+}
+
+/* Responsive para tablets */
+@media (max-width: 1024px) {
+  .about2-container {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .about2-container > div:last-child {
+    min-height: 50vh;
+    order: 2;
+  }
+
+  .objetive-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .objetive-info {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .about2-container {
+    min-height: auto;
+  }
+
+  .about2-container > div:first-child {
+    padding: 2rem 1rem;
+  }
+
+  .about2-container > div:last-child {
+    min-height: 40vh;
+  }
+
+  .objetive-info {
+    text-align: justify;
+  }
+}
