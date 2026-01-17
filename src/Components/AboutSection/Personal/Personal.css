@@ -8,9 +8,6 @@
   gap: clamp(2rem, 5vw, 10rem);
 }
 
-.personal-section-title {
-  padding: 4rem 8rem;
-}
 
 .personal-info {
   display: flex;

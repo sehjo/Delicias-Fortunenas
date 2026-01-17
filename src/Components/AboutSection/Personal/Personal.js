@@ -6,7 +6,7 @@ import JohannaVargas from "../../../Image/johanna_image.jpeg";
 export function Personal() {
   return (
     <>
-      <div className="personal-section-title">
+      <div >
         <div className="grid-container">
           <PersonalCard
             src={thomasMarion}
