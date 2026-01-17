@@ -6,24 +6,24 @@ import JohannaVargas from "../../../Image/johanna_image.jpeg";
 export function Personal() {
   return (
     <>
-      <div >
+      <div>
         <div className="grid-container">
           <PersonalCard
             src={thomasMarion}
             alt="Tomas Y Marion"
-            titulo="Grandes personas y amigos."
+            title="Grandes personas y amigos."
             desc="Con el apoyo de: Thomas y Marion"
           />
           <PersonalCard
             src={JohannaVargas}
             alt="Johanna Quesada"
-            titulo="Dos emprendedores persiguiendo un sueño."
+            title="Dos emprendedores persiguiendo un sueño."
             desc="Fundadora: Johanna Vargas"
           />
           <PersonalCard
             src={eduardoMiranda}
             alt="Eduardo Miranda"
-            titulo="Dos emprendedores persiguiendo un sueño."
+            title="Dos emprendedores persiguiendo un sueño."
             desc="Fundador: Eduardo Miranda"
           />
         </div>
