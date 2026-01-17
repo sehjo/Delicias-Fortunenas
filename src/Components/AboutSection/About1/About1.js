@@ -1,22 +1,6 @@
 import "./About1.css";
 import videoSrc from "../../../Video/slowmainvideo.mp4";
 
-const principalMesage = (
-  <>
-    <strong>Fundada en 2020 por Johanna y Eduardo,</strong> nuestra panadería
-    nació de la resiliencia.
-    <br /> En medio de los desafíos de la pandemia, encendimos nuestro primer
-    horno casero para transformar una necesidad en una pasión artesanal.
-    <br /> Lo que comenzó con panes tradicionales costarricenses y ventas por
-    redes sociales, creció gracias a la dedicación y al apoyo invaluable de
-    nuestros amigos Thomas y Marion, permitiéndonos alcanzar la independencia y
-    dedicarnos por completo a nuestro sueño.
-    <br /> Hoy, tras casi 6 años de trayectoria, en Delicias Fortuneñas
-    seguimos horneando con amor y calidad, llevando el auténtico sabor del pan
-    artesanal desde nuestro taller hasta su hogar.
-  </>
-);
-
 const principalMesage2 = (
   <>
     <strong>Delicias Fortuneñas</strong> nace en el 2020 a pocas semanas de haberse declarado la
@@ -63,13 +47,3 @@ export function About1() {
     </div>
   );
 }
-
-// Mission
-// "To produce artisanal bakery products that combine Costa Rican tradition with high-quality techniques,
-// using fresh ingredients and honest processes to bring wellness and authentic flavor
-// to every home and business that trusts us."
-
-// Vision
-// "To establish ourselves as the leading artisanal bakery in the area, being recognized for
-// our constant innovation, respect for natural fermentation times, and commitment
-// to excellence that allowed us to transform a home-born dream into a legacy of quality."

@@ -2,9 +2,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { NavBar } from './Components/Navbar/Navbar';
 import { Footer } from './Components/Footer/Footer';
-
 import MainPage from './Components/MainPage/MainPage';
-import About from './Components/AboutSection/About';
+import About from './Components/AboutSection/About.js';
 import { ProductsPage } from './Components/ProductsPage/ProductsPage';
 import { ContactPage } from './Components/ContactPage/ContactPage';
 
