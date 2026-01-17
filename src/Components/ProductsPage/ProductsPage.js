@@ -3,7 +3,7 @@ import './ProductsPage.css';
 import { Footer } from '../Footer/Footer';
 import { ProductCard } from '../ProductCard/ProductCard';
 
-// Importar todas las imágenes de productos
+// Import all product images
 import artisanalPanini from '../../Image/artisanal_panini_sandwiches.png';
 import briocheBun from '../../Image/brioche_hamburger_bun.png';
 import carrotCake from '../../Image/carrot_cake.png';
@@ -19,129 +19,129 @@ import signatureBrioche2 from '../../Image/Signature_brioche_with_local_butter_2
 import slicedBread from '../../Image/sliced_bread.png';
 import tresLechesCake from '../../Image/tres_leches_cake.png';
 
-// Imagen para la sección del medio
+// Image for the middle section
 import chefImage from '../../Image/johanna_image.jpeg';
 
 export function ProductsPage() {
-    // Definir todos los productos organizados por categoría
+    // Define all products organized by category
     const products = [
-        // Categoría: Panes artesanales (1, 2, 5, 7)
+        // Category: Special Breads and Paninis
         {
             id: 1,
-            title: "Pan 1",
-            description: "Delicioso pan artesanal, recién horneado con ingredientes de alta calidad.",
-            price: "$2.50",
+            title: "Panini Artesanal",
+            description: "Pan de miga suave con corteza fina. Perfecto para sándwiches gourmet. Disponible en 18 y 30 cm.",
+            price: "",
             image: artisanalPanini
         },
         {
             id: 2,
-            title: "Pan 2",
-            description: "Pan suave y esponjoso, perfecto para tu desayuno o merienda diaria.",
-            price: "$3.00",
+            title: "Pan Brioche para Hamburguesa",
+            description: "Miga de alveolatura fina con dulzor balanceado. Alto contenido de mantequilla fresca.",
+            price: "",
             image: briocheBun
         },
         {
             id: 5,
-            title: "Pan 5",
-            description: "Una opción saludable y deliciosa para toda la familia y ocasión.",
-            price: "$3.00",
+            title: "Pan de Hamburguesa Clásico",
+            description: "Textura suave y elástica. Marcado artesanal con o sin semillas de ajonjolí.",
+            price: "",
             image: classicBun
         },
         {
             id: 7,
-            title: "Pan 7",
-            description: "Pan integral con granos, nutritivo y sabroso para tu bienestar diario.",
-            price: "$2.50",
+            title: "Pan de Hamburguesa Integral",
+            description: "Con avena integral y chía. Miga densa y suave, perfil nutricional superior.",
+            price: "",
             image: oatsBun
         },
-        // Categoría: Panes de molde y rebanados (9, 10, 11, 12, 13)
+        // Category: Premium Sliced Breads
         {
             id: 9,
-            title: "Pan 9",
-            description: "Receta casera tradicional, horneado con ingredientes naturales frescos.",
-            price: "$2.50",
+            title: "Pan Multigrano Ancestral",
+            description: "Alta densidad nutricional con cebada, linaza y chía. Miga húmeda y compleja.",
+            price: "",
             image: multigrainBread
         },
         {
             id: 10,
-            title: "Pan 10",
-            description: "Pan de molde suave, perfecto para sandwiches y tostadas deliciosas.",
-            price: "$2.50",
+            title: "Pan Integral Premium",
+            description: "Fermentación prolongada con trigo integral. Notas profundas de trigo tostado.",
+            price: "",
             image: wholemealBread
         },
         {
             id: 11,
-            title: "Pan 11",
-            description: "Brioche artesanal con mantequilla, una delicia para tu paladar exigente.",
-            price: "$3.00",
+            title: "Brioche de Mantequilla Local",
+            description: "Miga que se deshace al paladar. Mantequilla artesanal de la región y huevos frescos.",
+            price: "",
             image: signatureBrioche
         },
         {
             id: 12,
-            title: "Pan 12",
-            description: "Pan especial de la casa, elaborado con receta secreta tradicional.",
-            price: "$2.50",
+            title: "Brioche Rebanado",
+            description: "Especial para tostadas francesas. Estructura hilada extremadamente ligera y aireada.",
+            price: "",
             image: signatureBrioche2
         },
         {
             id: 13,
-            title: "Pan 13",
-            description: "Pan rebanado perfecto, ideal para tu desayuno rápido y nutritivo.",
-            price: "$2.50",
+            title: "Pan de Molde Artesanal",
+            description: "Fermentación prolongada con mínima levadura. Miga algodonosa, 18 o 25 rebanadas.",
+            price: "",
             image: slicedBread
         },
-        // Categoría: Postres (3, 4, 6, 8, 14)
+        // Category: Seasonal Bakery
         {
             id: 3,
-            title: "Pan 3",
-            description: "Elaborado con masa madre, ideal para acompañar tus comidas favoritas.",
-            price: "$2.50",
+            title: "Rollos de Canela",
+            description: "Bollería laminada con frosting de queso crema. Masa de fermentación prolongada.",
+            price: "",
             image: cinnamonRolls
         },
         {
             id: 4,
-            title: "Pan 4",
-            description: "Pan tradicional con un toque especial, horneado con amor cada día.",
-            price: "$2.50",
+            title: "Queque de Zanahoria Gourmet",
+            description: "Con almendras y buttercream. Contraste de texturas: suave miga, crema y crujiente.",
+            price: "",
             image: carrotCake
         },
         {
             id: 6,
-            title: "Pan 6",
-            description: "Crujiente por fuera, suave por dentro, perfecto para cualquier momento.",
-            price: "$2.50",
+            title: "Queque de Naranja y Mantequilla",
+            description: "Bizcocho de miga cerrada con azúcar moreno. Aromatización en múltiples niveles.",
+            price: "",
             image: orangeCake
         },
         {
             id: 8,
-            title: "Pan 8",
-            description: "Dulce y aromático, ideal para acompañar tu café o té preferido.",
-            price: "$3.00",
+            title: "Queque Navideño",
+            description: "Maceración prolongada con ron. Frutos secos durante semanas. Temporada especial.",
+            price: "",
             image: christmasCake
         },
         {
             id: 14,
-            title: "Pan 14",
-            description: "Pastel tres leches casero, húmedo y delicioso con sabor inigualable.",
-            price: "$4.00",
+            title: "Pastel de Tres Leches",
+            description: "Bizcocho aireado que absorbe infusión láctea. Contraste de texturas y humedades.",
+            price: "",
             image: tresLechesCake
         }
     ];
 
-    // Dividir productos en dos mitades
+    // Split products into two halves
     const firstHalf = products.slice(0, 6);
     const secondHalf = products.slice(6);
 
     return (
         <div className="products-page">
-            {/* Contenido principal */}
+            {/* Main content */}
             <div className="products-content">
-                {/* Texto superior */}
+                {/* Header text */}
                 <div className="products-header">
                     <p>Nuestros panes son los mas sabrosos</p>
                 </div>
 
-                {/* Primera mitad de productos (6 cards) */}
+                {/* First half of products (6 cards) */}
                 <div className="products-grid">
                     {firstHalf.map(product => (
                         <ProductCard
@@ -154,19 +154,18 @@ export function ProductsPage() {
                     ))}
                 </div>
 
-                {/* Sección del medio con imagen y texto */}
+                {/* Middle section with image and text */}
                 <div className="middle-section">
                     <div className="middle-content">
                         <div className="middle-text">
                             <h2>Delicias Fortuneñas.</h2>
                             <p>
                                 Somos una panadería artesanal comprometida con la calidad y el sabor auténtico.
-                                Cada uno de nuestros productos está elaborado con ingredientes frescos y naturales,
-                                siguiendo recetas tradicionales que han pasado de generación en generación.
+                                Cada uno de nuestros productos está elaborado con ingredientes frescos y naturales. 
                                 <br /><br />
                                 Nuestro compromiso es ofrecerte productos horneados con amor y dedicación,
                                 para que cada bocado sea una experiencia única. Trabajamos únicamente bajo pedido
-                                para garantizar la frescura y calidad de cada producto que llega a tu mesa.
+                                para garantizar la frescura y calidad de cada producto que llega a tu mesa o negocio.
                             </p>
                             <button className="contact-button">
                                 Contáctenos
@@ -178,7 +177,7 @@ export function ProductsPage() {
                     </div>
                 </div>
 
-                {/* Segunda mitad de productos (restantes) */}
+                {/* Second half of products (remaining) */}
                 <div className="products-grid">
                     {secondHalf.map(product => (
                         <ProductCard
