@@ -49,7 +49,7 @@
     font-weight: 700;
     line-height: 120%;
     text-align: start; 
-    font-size: 7vh;
+    font-size: 6vh;
 
 }
 
@@ -168,5 +168,11 @@
     
     #transparent-square h1{
         font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 570px) {
+    #transparent-square h1{
+        font-size: 5vh;
     }
 }

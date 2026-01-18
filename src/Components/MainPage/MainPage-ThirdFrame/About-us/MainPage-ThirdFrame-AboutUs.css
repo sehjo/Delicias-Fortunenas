@@ -8,6 +8,10 @@
     background: #8B4A2B;
 }
 
+#link-about-us{
+    text-decoration: none;
+}
+
 #container-thirdframe > div{
     display: flex;    
     justify-content: center;

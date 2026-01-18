@@ -1,4 +1,5 @@
 import './MainPage-ThirdFrame-AboutUs.css';
+import { Link } from 'react-router-dom';
 
 export default function MainPageThirdFrame() {
     return (
@@ -7,7 +8,9 @@ export default function MainPageThirdFrame() {
                 <p>Acerca de Nosotros</p>
             </div>
             <div>
-                <button id='btn-read-more'>Leer mas</button>
+                <Link to="/acerca" id='link-about-us'>
+                    <button id='btn-read-more'>Leer mas</button>
+                </Link>
             </div>
         </div>
     );

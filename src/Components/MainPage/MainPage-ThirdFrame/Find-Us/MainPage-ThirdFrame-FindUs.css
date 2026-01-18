@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 5vw;
     background: linear-gradient(0deg, #553728 0%, #553728 100%), #8B4A2B;
 }
 
@@ -46,7 +46,7 @@
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.5vh;
     font-style: normal;
     line-height: 0%; 
 }
@@ -59,15 +59,11 @@
 @media screen and (max-width: 1124px) {
     #container-thirdframe-findus {
         height: 10vh;
-        gap: 10vh;
+        gap: 5vh;
         padding: 5vh 0;
     }
 
     #text-find-us {
-        font-size: 3vh;
-    }
-
-    #thirdframe-location > p {
         font-size: 2vh;
     }
     
@@ -86,6 +82,10 @@
 
 @media screen and (max-width: 768px) {
     #container-thirdframe-findus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         height: auto;
         gap: 2vh;
         padding: 5vh 0;
@@ -112,40 +112,37 @@
     
 }
 /* Mobile (portrait) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     #container-thirdframe-findus {
         height: auto;
         gap: 2vh;
-        padding: 4vh 2vw;
     }
 
     #text-find-us {
-        font-size: 1.3vh;
+        font-size: 4vw;
     }
 
     #btn-waze {
-        width: 2vw;
-        height: 2vh;
+        width: 4vw;
+        height: 5vh;
+        margin-right: 15vw;
     }
 
     #thirdframe-location > p {
-        font-size: 0.8vh;
-        
+        font-size: 1.8vh;
+        line-height: 1vw;
     }
 
     #icon-waze{
-        width: 9vw;
-        height: 5vh;
+        width: 17vw;
+        height: 12vh;
+        justify-self: center;
     }
 
     #icon-maps{
-        width: 5vw;
-        height: 3vh;
+        width: 9vw;
+        height: 7vh;
         
-    }
-
-    #thirdframe-location{
-        margin-left: 20px;
     }
 
     
