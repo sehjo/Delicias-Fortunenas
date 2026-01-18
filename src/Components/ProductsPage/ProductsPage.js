@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProductsPage.css';
-import { Footer } from '../Footer/Footer';
 import { ProductCard } from '../ProductCard/ProductCard';
 
 // Import all product images
