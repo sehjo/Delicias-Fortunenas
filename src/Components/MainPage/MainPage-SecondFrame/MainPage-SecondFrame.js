@@ -53,7 +53,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-8" className="bread-container">
                     <img alt = "ImagenBread8" src={imageneBread8}/>
-                    <span className="bread-name">pan de con semillas de ajonjolí</span>
+                    <span className="bread-name">Pan con semillas de ajonjolí</span>
                 </div>
                 <div id="div-imagen-9" className="bread-container">
                     <img alt = "ImagenBread9" src={imageBread9}/>
