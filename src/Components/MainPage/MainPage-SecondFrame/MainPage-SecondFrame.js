@@ -19,7 +19,7 @@ export default function MainPageSecondFrame() {
                 {/* first row of images */} 
                 <div id="div-imagen-1" className="bread-container">
                     <img alt = "ImagenBread1" src={imageBread1}/>
-                    <span className="bread-name">Croissant</span>
+                    <span className="bread-name">Pan de Molde Rebanado</span>
                 </div>
                 <div id="div-imagen-2" className="bread-container">
                     <img alt = "ImagenBread2" src={imageBread2}/>
@@ -42,7 +42,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-6" className="bread-container">
                     <img alt = "ImagenBread6" src={imageBread6}/>
-                    <span className="bread-name">Pan de Molde</span>
+                    <span className="bread-name">Pan Cena</span>
                 </div>
             </div>
             {/* third row of images */}
@@ -53,7 +53,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-8" className="bread-container">
                     <img alt = "ImagenBread8" src={imageneBread8}/>
-                    <span className="bread-name">Pan de Centeno</span>
+                    <span className="bread-name">Pan con semillas de ajonjolí</span>
                 </div>
                 <div id="div-imagen-9" className="bread-container">
                     <img alt = "ImagenBread9" src={imageBread9}/>
@@ -72,7 +72,7 @@ export default function MainPageSecondFrame() {
                 </div>
                 <div id="div-imagen-12" className="bread-container">
                     <img alt = "ImagenBread12" src={imageBread12}/>
-                    <span className="bread-name">Pan de Maíz</span>
+                    <span className="bread-name">Pan Tradicional Para Hamburguesa</span>
                 </div>
             </div>
         </div>
