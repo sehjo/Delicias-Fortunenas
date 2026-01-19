@@ -9,7 +9,7 @@ export default function MainPageThirdFrame() {
             </div>
             <div>
                 <Link to="/acerca" id='link-about-us'>
-                    <button id='btn-read-more'>Leer mas</button>
+                    <button id='btn-read-more'>Leer más</button>
                 </Link>
             </div>
         </div>
