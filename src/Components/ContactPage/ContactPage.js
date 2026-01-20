@@ -5,8 +5,8 @@ import MainPageFourthFrame from '../MainPage/MainPage-FourthFrame/MainPage-Fourt
 import MainPageThirdFrameFindUs from '../MainPage/MainPage-ThirdFrame/Find-Us/MainPage-ThirdFrame-FindUs';
 
 // Import images
-import premises1 from '../../Image/premises_1.png';
-import premises2 from '../../Image/premises_2.png';
+import premises1 from '../../Image/car_image.jpeg';
+import premises2 from '../../Image/arenal_volcano.jpg';
 
 export function ContactPage() {
     return (
