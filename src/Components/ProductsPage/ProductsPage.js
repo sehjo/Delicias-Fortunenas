@@ -2,6 +2,8 @@ import React from 'react';
 import './ProductsPage.css';
 import { Footer } from '../Footer/Footer';
 import { ProductCard } from '../ProductCard/ProductCard';
+import { ContactButton } from '../AboutSection/About3/About3';
+
 
 // Import all product images
 import artisanalPanini from '../../Image/artisanal_panini_sandwiches.png';
@@ -167,9 +169,7 @@ export function ProductsPage() {
                                 para que cada bocado sea una experiencia única. Trabajamos únicamente bajo pedido
                                 para garantizar la frescura y calidad de cada producto que llega a tu mesa o negocio.
                             </p>
-                            <button className="contact-button">
-                                Contáctenos
-                            </button>
+                            <ContactButton />
                         </div>
                         <div className="middle-image">
                             <img src={chefImage} alt="Delicias Fortuneñas" />
