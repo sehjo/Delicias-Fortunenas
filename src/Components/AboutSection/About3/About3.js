@@ -1,6 +1,7 @@
 import "./About3.css";
 import artisanBread from "../../../Image/pan.png";
 import contactIcon from "../../../icons/Vector.svg";
+import { Link } from 'react-router-dom';
 
 export function About3() {
   return (
@@ -38,9 +39,11 @@ export function About3() {
 
 function ContactButton() {
   return (
-    <button className="about3-contact-button">
+    <Link to="/contacto" className="about3-contact-button">
       <img src={contactIcon} alt="Contact Icon" className="contact-icon" />
       <span className="contact-text">Contactenos</span>
-    </button>
+    </Link>
   );
 }
+
+export { ContactButton };
